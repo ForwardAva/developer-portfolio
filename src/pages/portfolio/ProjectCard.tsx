@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ExternalLink } from "lucide-react";
+// import { ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa6";
 import { MONO_FONT, TEXT_SECONDARY } from "@/constants/theme";
 import {

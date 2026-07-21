@@ -19,13 +19,13 @@ type SceneComponent = ComponentType<SceneCoverProps>;
 // Animated SVG scenes (undeployed projects) -- lazy so the Projects chunk
 // stays lean; they only load when the section renders.
 const InfraScene = lazy(() => import("./InfraScene"));
-const McpScene = lazy(() => import("./McpScene"));
-const MlScene = lazy(() => import("./MlScene"));
-const GameScene = lazy(() => import("./GameScene"));
+// const McpScene = lazy(() => import("./McpScene"));
+// const MlScene = lazy(() => import("./MlScene"));
+// const GameScene = lazy(() => import("./GameScene"));
 const DocsScene = lazy(() => import("./DocsScene"));
 const AutomationScene = lazy(() => import("./AutomationScene"));
-const AuthScene = lazy(() => import("./AuthScene"));
-const WebAppScene = lazy(() => import("./WebAppScene"));
+// const AuthScene = lazy(() => import("./AuthScene"));
+// const WebAppScene = lazy(() => import("./WebAppScene"));
 
 export type ProjectCover =
    | { kind: "image"; src: string }

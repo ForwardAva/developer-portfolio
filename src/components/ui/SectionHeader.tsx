@@ -6,7 +6,7 @@ interface Props {
    subtitle?: string;
 }
 
-const SectionHeader = ({ title, subtitle }: Props) => {
+const SectionHeader = ({ title }: Props) => {
    return (
       <motion.div
          style={{
