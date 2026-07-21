@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "date": "Oct 2018 \u2013 Jun 2022",
+    "date": "Oct 2018 \u2013 Jun 2021",
     "title": "Bachelor's Degree in Computer Science (B.Sc.)",
-    "institution": "Gda\u0144sk University of Technology",
+    "institution": "Warsaw University of Technology",
     "institutionType": "Public Technical University",
     "department": "Faculty of Electronics, Telecommunications and Informatics",
-    "location": "Gda\u0144sk, Poland",
+    "location": "Warsaw, Poland",
     "cgpa": "9.23",
     "percentage": "92.3%",
-    "display_text": "Gda\u0144sk University of Technology - Gda\u0144sk, Poland",
+    "display_text": "Warsaw University of Technology - Warsaw, Poland",
     "achievements": [
       "Artificial Intelligence Certification (Apr 2022)",
       "Cloud Computing Fundamentals Certification (Sep 2021)",
