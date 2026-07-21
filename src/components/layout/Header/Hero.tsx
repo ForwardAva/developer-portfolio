@@ -1,11 +1,11 @@
-import { useCallback } from "react";
+// import { useCallback } from "react";
 // import { motion } from "motion/react";
 import { useLenis } from "lenis/react";
 // import { ChevronDown } from "lucide-react";
 import HeroContent from "./HeroContent";
 
 const Hero = () => {
-   const lenis = useLenis();
+   // const lenis = useLenis();
    // const scrollToAbout = useCallback(() => {
    //    const el = document.getElementById("about");
    //    if (!el) return;

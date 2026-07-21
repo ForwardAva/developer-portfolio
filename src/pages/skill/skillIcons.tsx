@@ -69,7 +69,7 @@ import { FcServices } from "react-icons/fc";
 import { RiShieldKeyholeFill } from "react-icons/ri";
 import { LuBrainCircuit, LuContainer } from "react-icons/lu";
 import { AiOutlineAlignCenter } from "react-icons/ai";
-import { MdArchitecture, MdAssessment, MdOutlineModelTraining, MdSupportAgent } from "react-icons/md";
+import { MdArchitecture, MdAssessment, MdSupportAgent } from "react-icons/md";
 import { ImEmbed } from "react-icons/im";
 
 interface IconProps {
@@ -83,7 +83,7 @@ export interface SkillIcon {
    color: string;
 }
 
-const BLUE = "#60a5fa";
+// const BLUE = "#60a5fa";
 const AWS_ORANGE = "#FF9900";
 
 /**
