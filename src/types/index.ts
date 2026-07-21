@@ -43,7 +43,7 @@ export interface CodingPlatformStat {
    best_rating?: string;
    badge?: string;
    problem_solving?: string;
-   cpp?: string;
+   python?: string;
 }
 
 export type CodingPlatformStats = Record<string, CodingPlatformStat>;

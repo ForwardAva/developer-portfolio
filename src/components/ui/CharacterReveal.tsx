@@ -34,7 +34,7 @@ const CharacterReveal = ({
    });
 
    // Group characters by word so line-wrapping happens at word boundaries --
-   // per-character inline-blocks let the browser break mid-word ("Sagar G/upta").
+   // per-character inline-blocks let the browser break mid-word ("Larry M/rgerum").
    const words = useMemo(() => {
       const counts: Record<string, number> = {};
       return text.split(" ").map((word) => {

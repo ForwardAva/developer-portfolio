@@ -36,14 +36,12 @@ const QuickFacts = ({ isMobile }: { isMobile: boolean }) => {
          {
             Icon: Briefcase,
             label: "Role",
-            // "Cloud Consultant -- Professional Services (DevOps/MLOps) at AWS"
-            // is a mouthful for a fact chip; keep the part before the dash.
-            value: getTitle().split(" -- ")[0] + " @ AWS",
+            value: getTitle().split(" -- ")[0] + "",
          },
          {
             Icon: GraduationCap,
             label: "Education",
-            value: `${degreeShort}, NIT Warangal`,
+            value: `${degreeShort}, ${getEducation()[0].institution}⁠`,
          },
          {
             Icon: Languages,

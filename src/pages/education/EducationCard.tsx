@@ -77,7 +77,7 @@ const EducationCard = ({ item, index, isMobile }: EducationCardProps) => {
                         }}
                      >
                         <MapPin size={11} style={{ flexShrink: 0 }} />
-                        {item.location.split(",")[0]}
+                        {item.location}
                      </span>
                   )}
                </div>
@@ -92,7 +92,7 @@ const EducationCard = ({ item, index, isMobile }: EducationCardProps) => {
          key="desktop"
          style={{
             display: "grid",
-            gridTemplateColumns: "160px 40px 1fr",
+            gridTemplateColumns: "240px 40px 1fr",
             gap: 0,
          }}
          variants={index % 2 === 0 ? slideInLeft : slideInRight}
@@ -139,7 +139,7 @@ const EducationCard = ({ item, index, isMobile }: EducationCardProps) => {
                   }}
                >
                   <MapPin size={11} style={{ flexShrink: 0 }} />
-                  {item.location.split(",")[0]}
+                  {item.location}
                </p>
             )}
          </div>

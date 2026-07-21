@@ -6,9 +6,9 @@ import { MONO_FONT, TEXT_MUTED, TEXT_SECONDARY } from "@/constants/theme";
 // scripts/prepare-resume.js -- no client-side PDF machinery, no blur.
 const BASE = import.meta.env.BASE_URL;
 const MANIFEST_URL = `${BASE}resume-pages/manifest.json`;
-const RESUME_PDF = `${BASE}resume.pdf`;
+const RESUME_PDF = `https://flowcv.com/resume/hilsned237sd`;
 const RESUME_DOWNLOAD_URL =
-   "https://github.com/Sagargupta16/latex-resume/releases/latest/download/resume.pdf";
+   "https://flowcv.com/resume/hilsned237sd";
 
 const ZOOM_STEPS = [0.75, 1, 1.25, 1.5];
 
@@ -59,7 +59,7 @@ const CvDocument = ({ isMobile }: CvDocumentProps) => {
                gap: 16,
             }}
          >
-            <p>The inline viewer could not load the CV.</p>
+            <p>The inline viewer could not load the Resume.</p>
             <a
                href={RESUME_DOWNLOAD_URL}
                className="btn-primary"
@@ -72,7 +72,7 @@ const CvDocument = ({ isMobile }: CvDocumentProps) => {
                }}
             >
                <Download size={15} />
-               Download CV instead
+               Download Resume instead
             </a>
          </div>
       );
@@ -160,7 +160,7 @@ const CvDocument = ({ isMobile }: CvDocumentProps) => {
                </a>
                <a
                   href={RESUME_DOWNLOAD_URL}
-                  aria-label="Download CV"
+                  aria-label="Download Resume"
                   className="btn-primary"
                   style={{
                      display: "inline-flex",

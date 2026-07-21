@@ -8,7 +8,7 @@ import useBreakpoint from "@hooks/useBreakpoint";
 import FooterSocial from "./FooterSocial";
 
 const RESUME_URL =
-   "https://github.com/Sagargupta16/latex-resume/releases/latest/download/resume.pdf";
+   "https://flowcv.com/resume/hilsned237sd";
 
 const SITE_LINKS: { id: string; label: string }[] = [
    { id: "hero", label: "Home" },
@@ -85,7 +85,7 @@ const FooterContent = () => {
                   }}
                   aria-hidden="true"
                >
-                  SG
+                  LM
                </span>
                <p style={{ color: "rgba(244,246,247,0.8)", fontSize: 14 }}>
                   &copy; {new Date().getFullYear()} {name}. All rights reserved.
@@ -123,7 +123,7 @@ const FooterContent = () => {
                      e.currentTarget.style.color = "rgba(244, 246, 247, 0.75)";
                   }}
                >
-                  Download CV
+                  Download Resume
                </a>
             </nav>
 

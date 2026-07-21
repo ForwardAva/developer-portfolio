@@ -222,7 +222,31 @@
    "other_projects": [],
    "community_projects": [],
    "open_source_contributions": [
+      {
+         "repo": "lucide-icons/lucide",
+         "title": "Support kebab-case icon-node prop on Vue Icon component",
+         "url": "https://github.com/lucide-icons/lucide/pull/4512",
+         "status": "merged"
+      },
+      {
+         "repo": "awslabs/mcp",
+         "title": "Accept skill-type results in search_documentation",
+         "url": "https://github.com/awslabs/mcp/pull/4076",
+         "status": "open"
+      }
    ],
    "community_discussions": [
+      {
+         "repo": "community/community",
+         "title": "Best practices for handling persistent 202 responses from the contributor stats API",
+         "url": "https://github.com/orgs/community/discussions/190711",
+         "status": "accepted"
+      },
+      {
+         "repo": "community/community",
+         "title": "git filter-repo rewrote all branch histories - branches now show 5500+ commits ahead/behind main",
+         "url": "https://github.com/orgs/community/discussions/190689",
+         "status": "helpful"
+      }
    ]
 }

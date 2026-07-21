@@ -44,7 +44,7 @@ const PreloaderContent = ({ displayProgress }: PreloaderContentProps) => {
                zIndex: 1,
             }}
          >
-            SG
+            LM
          </motion.div>
 
          {/* Progress bar */}

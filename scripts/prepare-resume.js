@@ -15,7 +15,7 @@ import { pdf } from "pdf-to-img";
 import sharp from "sharp";
 
 const RESUME_URL =
-   "https://github.com/Sagargupta16/latex-resume/releases/latest/download/resume.pdf";
+   "https://flowcv.com/resume/hilsned237sd";
 const PUBLIC_DIR = path.resolve(import.meta.dirname, "../public");
 const PDF_OUT = path.join(PUBLIC_DIR, "resume.pdf");
 const PAGES_DIR = path.join(PUBLIC_DIR, "resume-pages");

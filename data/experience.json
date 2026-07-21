@@ -2,230 +2,276 @@
    "professional_experience": [
       {
          "id": 1,
-         "date": "August 2024 - Present",
-         "title": "Cloud Consultant - Professional Services (DevOps/MLOps)",
-         "position": "Full-time",
-         "company": "Amazon Web Services",
-         "location": "Hyderabad, India",
-         "summary": "Assisting enterprise customers in designing, migrating, implementing, and building scalable solutions on AWS with infrastructure automation and MLOps.",
+         "date": "Jan 2025 \u2013 Jun 2026",
+         "title": "AI Engineer",
+         "position": "Full-time Remote",
+         "company": "Twelve Labs",
+         "location": "San Francisco, California, USA",
+         "summary": "Built production-grade AI applications leveraging LLMs, RAG pipelines, and multi-agent architectures while collaborating with distributed engineering teams.",
          "projects": [
             {
-               "name": "Lead DevOps Consultant - RWS (Ongoing)",
-               "date": "Feb 2026 - Present",
+               "name": "LLM Platform",
+               "date": "Sep 2025 - Jun 2026",
                "description": {
-                  "1": "Leading greenfield AWS migration as the sole DevOps consultant - onboarding 50+ application workloads into 135+ AWS accounts, designing AWS Organizations OU structure, SCPs, tag policies, and Terraform + GitHub Actions CI/CD, cutting infrastructure setup time ~90% (3+ days per account to under 4 hours) versus manual provisioning.",
-                  "2": "Implemented governance and infrastructure security controls - preventative SCPs, tag compliance guardrails, Config rules, and Security Hub standards across the org - enforcing least-privilege access and CCMv4-aligned regulatory posture from day one.",
-                  "3": "Architecting the multi-account networking foundation - Transit Gateway hub-and-spoke, centralized VPC design, hybrid connectivity (VPN/Direct Connect), DNS resolution, and egress control via centralized inspection.",
-                  "4": "Driving architecture decisions and defining migration roadmap for 50+ application workloads into 135+ AWS accounts. Delivering recommendations on cost optimization, HA, and DR to customer stakeholders.",
-                  "5": "Used Kiro for AI-driven requirement analysis, architecture documentation, and implementation specs."
+                  "1": "Developed 15+ RAG pipelines for enterprise AI applications.",
+                  "2": "Improved retrieval accuracy by ~30% using vector search and prompt optimization techniques.",
+                  "3": "Integrated support for 10+ knowledge bases and document ingestion workflows.",
+                  "4": "Containerized and deployed services using Docker and Kubernetes."
                },
                "skills": [
+                  "Python",
+                  "LangChain",
+                  "LangGraph",
+                  "RAG",
+                  "Docker",
+                  "Kubernetes",
+                  "PostgreSQL",
                   "AWS",
-                  "AWS Organizations",
-                  "SCPs",
-                  "Tag Policies",
-                  "Security Hub",
-                  "Config Rules",
-                  "Transit Gateway",
-                  "VPC",
-                  "Direct Connect",
-                  "VPN",
-                  "Route 53",
-                  "Terraform",
+                  "OpenAI API",
+                  "Qdrant",
+                  "Redis",
+                  "FastAPI"
+               ]
+            },
+            {
+               "name": "Agent Engine",
+               "date": "May 2025 - Aug 2025",
+               "description": {
+                  "1": "Built 12+ multi-agent workflows using LangGraph and LangChain.",
+                  "2": "Implemented persistent memory and checkpointing across 6 production use cases.",
+                  "3": "Reduced workflow execution failures by ~22% through state management improvements.",
+                  "4": "Created reusable templates adopted across 3 engineering teams."
+               },
+               "skills": [
+                  "Python",
+                  "LangGraph",
+                  "LangChain",
+                  "FastAPI",
+                  "PostgreSQL",
+                  "AWS",
+                  "OpenAI API",
+                  "Anthropic API",
+                  "Docker",
+                  "Redis",
+                  "Pydantic",
+                  "AI Agents"
+               ]
+            },
+            {
+               "name": "Coding Assistant",
+               "date": "Jan 2025 - Apr 2025",
+               "description": {
+                  "1": "Developed 8+ autonomous coding workflows for code generation, debugging, and documentation.",
+                  "2": "Integrated 4 LLM providers for dynamic model selection.",
+                  "3": "Improved agent task completion rates by ~18% through execution monitoring and validation pipelines.",
+                  "4": "Contributed 25+ pull requests across frontend and backend modules."
+               },
+               "skills": [
+                  "Python",
+                  "TypeScript",
+                  "React",
+                  "Docker",
+                  "Anthropic API",
+                  "OpenAI API",
+                  "Next.js",
+                  "Tailwind CSS",
+                  "Node.js",
                   "GitHub Actions",
-                  "Cloud Migration",
-                  "Solution Architecture",
-                  "Kiro"
-               ]
-            },
-            {
-               "name": "DevOps Consultant - DTCC",
-               "date": "Aug 2025 - Dec 2025",
-               "description": {
-                  "1": "Refactored and created critical Terraform infrastructure code to enhance security and scalability, solving complex legacy modernization challenges in financial services.",
-                  "2": "Used Amazon Q to accelerate code analysis and migration assessments, transforming infrastructure patterns to align with cloud-native principles.",
-                  "3": "Partnered with client engineering teams on secure infrastructure practices and knowledge transfer."
-               },
-               "skills": [
-                  "AWS",
-                  "Terraform",
-                  "Amazon Q",
-                  "CloudFormation",
-                  "DevSecOps",
-                  "Cloud Migration"
-               ]
-            },
-            {
-               "name": "Medical Image Classification MLOps Pipeline (Internal - SME Program)",
-               "date": "Jun 2025 - Aug 2025",
-               "description": {
-                  "1": "Architected end-to-end MLOps pipeline on SageMaker, automating data processing, multi-model training, and ensemble model creation for medical image classification.",
-                  "2": "Deployed production SageMaker endpoints with blue-green deployment, auto-scaling, and drift detection - enabling zero-downtime model updates with automatic rollback.",
-                  "3": "Provisioned entire infrastructure with Terraform and built CI/CD via CodePipeline and CodeBuild, deploying CloudFront frontend and API Gateway + Lambda inference API."
-               },
-               "skills": [
-                  "AWS",
-                  "SageMaker",
-                  "CloudWatch",
-                  "Lambda",
-                  "API Gateway",
-                  "EventBridge",
-                  "CodePipeline",
-                  "CloudFront",
-                  "Terraform",
-                  "Python"
-               ]
-            },
-            {
-               "name": "DevOps Consultant - State Street",
-               "date": "Oct 2024 - Aug 2025",
-               "description": {
-                  "1": "Built Terraform module library covering 38+ AWS services with automated testing (tftest, PyTest), adopted across the client's cloud platform by application teams.",
-                  "2": "Architected 1000+ preventative security controls (AWS Config rules and Security Hub standards) aligned with CCMv4.0 compliance requirements, designing self-service capabilities with governance guardrails.",
-                  "3": "Delivered POCs showcasing use-cases of various AWS services through Terraform, and implemented evidence and federated architecture patterns.",
-                  "4": "Collaborated across Landing Zone, Compliance, Security, and Migrations workstreams. Achieved 10/10 CSAT score and 3 consecutive 5/5 Pulse ratings from customer."
-               },
-               "skills": [
-                  "AWS",
-                  "Terraform",
-                  "tftest",
-                  "PyTest",
-                  "EventBridge",
-                  "CloudWatch",
-                  "SNS",
-                  "EBS",
-                  "Detective",
-                  "CCMv4.0",
-                  "Security Hardening"
+                  "SQLite",
+                  "REST APIs"
                ]
             }
          ],
          "internal_contributions": [
             {
-               "title": "Tech Talk: Automating Unit Testing for Terraform using Terraform Test and PyTest frameworks",
+               "title": "Tech Talk: Enterprise RAG Architecture Best Practices",
                "type": "talk",
-               "year": "2025"
+               "year": 2026
             },
             {
-               "title": "Tech Talk: GitOps Configuration Safety with Health Checks and Pipeline Gating",
+               "title": "Tech Talk: Building Scalable AI Agent Systems with LangGraph",
                "type": "talk",
-               "year": "2026"
-            },
-            {
-               "title": "APG Pattern: Secure PR Previews and Approval-Gated Releases for Amplify Gen 2 with GitHub (Published)",
-               "type": "publication",
-               "year": "2025"
-            },
-            {
-               "title": "2 APG Patterns Peer Reviewed",
-               "type": "publication",
-               "year": "2025"
+               "year": 2025
             }
          ],
          "internal_achievements": [
             {
-               "title": "ProServe MLOps SME Program Graduate",
+               "title": "AI Platform Excellence Program",
                "type": "program",
-               "year": "2025"
+               "year": 2026
             },
             {
-               "title": "5x TFC Ambassador: AI/ML, NGDE (Graduated), CloudOps (AWS DevOps Agent), Agentic AI, Serverless",
+               "title": "Developer Productivity Automation Program",
                "type": "program",
-               "year": "2025-2026"
-            },
-            {
-               "title": "Associate Speaker Certification",
-               "type": "program",
-               "year": "2026"
-            },
-            {
-               "title": "AWS T&C Subject Matter Expert (SME) Program Contributor",
-               "type": "program",
-               "year": "2025"
-            },
-            {
-               "title": "ML Hackathon 2025 - 26th/238 teams",
-               "type": "program",
-               "year": "2025"
+               "year": 2025
             }
          ]
       },
       {
          "id": 2,
-         "date": "March 2024 - July 2024",
-         "title": "Associate Professional Services - DevOps",
-         "position": "Internship",
-         "company": "Amazon Web Services",
-         "location": "Hyderabad, India",
-         "summary": "Underwent extensive hands-on DevOps and Cloud training, delivered multiple proof-of-concepts, and contributed to a production ECS migration project using Terraform and CI/CD pipelines.",
+         "date": "Jan 2023 \u2013 Dec 2024",
+         "title": "Full Stack Developer",
+         "position": "Full-time Remote",
+         "company": "Prefect",
+         "location": "Washington, DC, USA",
+         "summary": "Delivered scalable SaaS applications and open-source products while progressively taking ownership of architecture and feature delivery.",
          "projects": [
             {
-               "name": "ECS Application Deployment with Terraform",
-               "date": "Mar 2024 - Jul 2024",
+               "name": "Agile Suite",
+               "date": "Jun 2024 - Dec 2024",
                "description": {
-                  "1": "Migrated on-premises web application to AWS ECS, implementing high-availability architecture and CI/CD pipeline using AWS CodePipeline, reducing maintenance overhead.",
-                  "2": "Architected infrastructure as code using Terraform, managing AWS resources including VPC, ALB, and ECS clusters while implementing blue-green deployment strategy for zero-downtime updates.",
-                  "3": "Automated Docker image building and deployment process through integration of AWS CodeBuild, CodeDeploy, and Amazon ECR, streamlining application delivery workflow.",
-                  "4": "Established comprehensive monitoring solution using AWS X-Ray and CloudWatch for distributed tracing and full observability of application performance."
+                  "1": "Delivered 15+ enhancements across issue tracking and sprint planning modules.",
+                  "2": "Improved API performance by ~25% through query optimization.",
+                  "3": "Implemented automated testing for critical workflows.",
+                  "4": "Collaborated with a distributed team of 15+ engineers."
                },
                "skills": [
-                  "AWS",
-                  "ECS",
-                  "CodePipeline",
-                  "ECR",
-                  "X-Ray",
-                  "CloudWatch",
-                  "Terraform",
+                  "Next.js",
+                  "Python",
+                  "PostgreSQL",
+                  "Redis",
                   "Docker",
-                  "CodeBuild",
-                  "CodeDeploy",
-                  "VPC",
-                  "ALB",
-                  "Blue-Green Deployment"
+                  "TypeScript",
+                  "REST APIs",
+                  "GitHub Actions",
+                  "Tailwind CSS",
+                  "AWS",
+                  "CI/CD",
+                  "Jest"
+               ]
+            },
+            {
+               "name": "AI-SaaS Platform",
+               "date": "Sep 2023 - May 2024",
+               "description": {
+                  "1": "Built a multi-tenant SaaS platform supporting 1,000+ monthly active users.",
+                  "2": "Developed 20+ REST APIs covering authentication, billing, and AI services.",
+                  "3": "Integrated Stripe subscriptions and OpenAI-powered automation features.",
+                  "4": "Reduced deployment times by ~40% through CI/CD automation."
+               },
+               "skills": [
+                  "Next.js",
+                  "TypeScript",
+                  "FastAPI",
+                  "Stripe",
+                  "AWS",
+                  "Docker",
+                  "OpenAI API",
+                  "PostgreSQL",
+                  "Redis",
+                  "GitHub Actions",
+                  "Tailwind CSS",
+                  "REST APIs"
+               ]
+            },
+            {
+               "name": "Workspace Hub",
+               "date": "Jan 2023 - Aug 2023",
+               "description": {
+                  "1": "Implemented 10+ collaborative workspace features for notes and documents.",
+                  "2": "Improved frontend responsiveness by ~20% across major user workflows.",
+                  "3": "Participated in 50+ code reviews and Agile ceremonies.",
+                  "4": "Resolved 40+ issues related to synchronization and user experience."
+               },
+               "skills": [
+                  "Flutter",
+                  "TypeScript",
+                  "Rust",
+                  "Docker",
+                  "PostgreSQL",
+                  "Git",
+                  "GitHub",
+                  "REST APIs",
+                  "Redis",
+                  "Linux",
+                  "CI/CD",
+                  "Figma"
                ]
             }
          ],
-         "internal_contributions": [],
+         "internal_contributions": [
+            {
+               "title": "ech Talk: Building Scalable SaaS Applications with Next.js and FastAPI",
+               "type": "talk",
+               "year": 2023
+            }
+         ],
          "internal_achievements": [
             {
-               "title": "TechU Graduate",
+               "title": "SaaS Platform Modernization Program",
                "type": "program",
-               "year": "2024"
+               "year": 2024
             }
          ]
       },
       {
          "id": 3,
-         "date": "May 2023 - July 2023",
-         "title": "Software Developer Associate",
-         "position": "Internship",
-         "company": "Ikarus-3D",
-         "location": "Mohali, India",
-         "summary": "Containerized and deployed production applications on AWS, building CI/CD pipelines and establishing code quality infrastructure.",
+         "date": "Jan 2022 \u2013 Dec 2022",
+         "title": "Junior Full Stack Developer",
+         "position": "Full-time Remote",
+         "company": "Weaviate",
+         "location": "Amsterdam, Netherlands",
+         "summary": "Contributed to modern web applications while strengthening full-stack development skills in a distributed engineering environment.",
          "projects": [
             {
-               "name": "Web Application Containerization and Deployment",
-               "date": "May 2023 - Jul 2023",
+               "name": "Smart Scheduling",
+               "date": "Jan 2022 - Dec 2022",
                "description": {
-                  "1": "Containerized application with Docker and deployed to AWS using ECR and ECS services.",
-                  "2": "Implemented comprehensive CI/CD pipeline using GitHub Actions, automating linting, testing, building, and deployment processes.",
-                  "3": "Standardized codebase with multi-language linting (pylint, flake8, Black, ESLint, Stylelint) and unit testing (Pytest, Jest).",
-                  "4": "Deployed SonarQube on AWS EC2 with RDS integration for continuous code quality analysis.",
-                  "5": "Provisioned Forem platform using Ansible for streamlined infrastructure automation."
+                  "1": "Implemented 12+ scheduling and calendar management features.",
+                  "2": "Built integrations with Google Calendar and Microsoft Outlook.",
+                  "3": "Improved database query performance by ~12%.",
+                  "4": "Added automated tests covering 80% of critical scheduling workflows."
                },
                "skills": [
-                  "AWS",
-                  "EC2",
-                  "ECR",
-                  "ECS",
-                  "RDS",
-                  "Docker",
+                  "Next.js",
+                  "TypeScript",
+                  "Node.js",
+                  "Prisma",
+                  "PostgreSQL",
+                  "Google Calendar API",
+                  "Microsoft Outlook API",
+                  "Tailwind CSS",
+                  "REST APIs",
                   "GitHub Actions",
-                  "SonarQube",
-                  "Ansible",
+                  "Docker",
+                  "Jest"
+               ]
+            }
+         ],
+         "internal_contributions": [],
+         "internal_achievements": []
+      },
+      {
+         "id": 4,
+         "date": "Jun 2021 \u2013 Dec 2021",
+         "title": "AI Engineer Intern",
+         "position": "Internship",
+         "company": "Tooploox",
+         "location": "Wroc\u0142aw, Poland",
+         "summary": "Supported AI research initiatives by developing transformer-based NLP solutions and collaborating closely with senior machine learning engineers.",
+         "projects": [
+            {
+               "name": "Transformer NLP Suite",
+               "date": "Jun 2021 - Dec 2021",
+               "description": {
+                  "1": "Fine-tuned 5+ transformer models for text classification and question-answering tasks.",
+                  "2": "Built data preprocessing pipelines that reduced preparation time by ~20%.",
+                  "3": "Benchmarked models across datasets containing 100,000+ text samples.",
+                  "4": "Contributed to 3 AI proof-of-concepts delivered to enterprise clients."
+               },
+               "skills": [
                   "Python",
-                  "JavaScript",
-                  "CI/CD"
+                  "PyTorch",
+                  "Hugging Face Transformers",
+                  "NLP",
+                  "Scikit-learn",
+                  "Pandas",
+                  "NumPy",
+                  "Jupyter Notebook",
+                  "Git",
+                  "Matplotlib",
+                  "Linux",
+                  "OpenCV"
                ]
             }
          ],
@@ -233,43 +279,5 @@
          "internal_achievements": []
       }
    ],
-   "positions_of_responsibility": [
-      {
-         "id": 1,
-         "date": "August 2023 - June 2024",
-         "title": "Additional Secretary",
-         "position": "",
-         "company": "CSEA, NIT Warangal",
-         "location": "Warangal, Telangana",
-         "summary": "Part of the largest student body on campus, creating opportunities for students to learn, grow, and have fun.",
-         "description": {
-            "1": "Member of the Contest Team, organizing competitive programming events and coding challenges.",
-            "2": "Member of the Development Team, building and maintaining web applications for the club."
-         },
-         "skills": [
-            "Communication",
-            "Leadership",
-            "Teamwork",
-            "Management",
-            "Git",
-            "GitHub",
-            "React",
-            "Nodejs"
-         ]
-      },
-      {
-         "id": 2,
-         "date": "August 2023 - June 2024",
-         "title": "Class Representative",
-         "position": "",
-         "company": "MCA Final Year, NIT Warangal",
-         "location": "Warangal, Telangana",
-         "summary": "Facilitated student-faculty communication and managed class operations for MCA Final Year.",
-         "description": {
-            "1": "Facilitate effective communication between students and faculty, representing the class in meetings.",
-            "2": "Collaborate with class representatives to address student concerns and enhance the learning environment."
-         },
-         "skills": ["Communication", "Leadership", "Teamwork", "Management"]
-      }
-   ]
+   "positions_of_responsibility": []
 }

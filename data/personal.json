@@ -1,68 +1,66 @@
 {
-   "name": "Sagar Gupta",
-   "title": "Cloud Consultant -- Professional Services (DevOps/MLOps) at AWS",
-   "location": "Hyderabad, India",
-   "contact": {
-      "email": "sg85207@gmail.com",
-      "phone": "+91-8770532413",
-      "linkedin": "sagar-gupta-16-10",
-      "github": "Sagargupta16"
-   },
-   "roles": [
-      "Cloud Consultant at AWS - DevOps/MLOps",
-      "DevOps & Infrastructure Automation Engineer",
-      "MLOps Engineer",
-      "Full-Stack Developer",
-      "Open Source Contributor",
-      "Competitive Programmer"
-   ],
-   "about": {
-      "greeting": "👋 Hi, my name is Sagar Gupta.",
-      "current_role": "💼 Cloud & DevOps/MLOps Engineer at AWS Professional Services, delivering DevOps engagements for leading financial institutions like State Street and DTCC. Leading a greenfield AWS migration for 50+ application workloads at RWS.",
-      "specialization": "🚀 Built production MLOps pipelines on SageMaker, published architecture patterns on AWS Prescriptive Guidance, and contributed to major open source projects including Apache Airflow, Terraform Provider AWS, and Feast.",
-      "education": "🎓 Completed MCA from National Institute of Technology, Warangal (CGPA: 8.38, NIMCET AIR 208). 6x certified across AWS and Terraform.",
-      "competitive_programming": "🏆 LeetCode Knight (2007 peak rating), 1600+ problems across LeetCode and GeeksforGeeks, 100+ contests. Google Kick Start '22 Top 5%."
-   },
-   "statistics": {
-      "coding_questions": "1600+",
-      "leetcode_rating": "2007",
-      "projects": "40+",
-      "contests": "100+",
-      "industry_certifications": "6",
-      "open_source_prs": "9 merged + 7 open"
-   },
-   "languages": [
-      { "name": "English", "level": "Professional Working" },
-      { "name": "Hindi", "level": "Native" }
-   ],
-   "social_profiles": [
-      {
-         "id": 1,
-         "name": "LinkedIn",
-         "link": "https://www.linkedin.com/in/sagar-gupta-16-10/",
-         "icon": "BsLinkedin"
-      },
-      {
-         "id": 2,
-         "name": "GitHub",
-         "link": "https://github.com/Sagargupta16",
-         "icon": "FaGithub"
-      },
-      {
-         "id": 3,
-         "name": "Instagram",
-         "link": "https://www.instagram.com/sagar_sethh/",
-         "icon": "FiInstagram"
-      },
-      {
-         "id": 4,
-         "name": "Twitter",
-         "link": "https://x.com/Sagargupta1610/",
-         "icon": "SiX"
-      }
-   ],
-   "site": {
-      "counter_namespace": "sagargupta-portfolio",
-      "tech_stack": ["React 19", "Vite 8", "Tailwind v4", "Motion", "Lenis"]
-   }
+  "name": "Larry Margerum",
+  "title": "Full Stack & AI Engineer",
+  "location": "Hel, Pomeranian Voivodeship, Poland",
+  "contact": {
+    "email": "larrymargerum01@gmail.com",
+    "phone": "+1 (202) 681 5715",
+    "github": "larrymargerum01"
+  },
+  "roles": [
+    "Full Stack Engineer",
+    "AI Engineer",
+    "Technical Collaborator",
+    "Open Source Contributor",
+    "Product Builder"
+  ],
+  "about": {
+    "greeting": "\ud83d\udc4b Hi, I'm Larry Margerum.",
+    "current_role": "\ud83d\udcbc Full Stack & AI Engineer delivering scalable SaaS platforms, production AI systems, and cloud-native applications using modern web technologies and large language models.",
+    "specialization": "\ud83d\ude80 Specializing in LLMs, RAG pipelines, AI agents, multi-agent systems, and full-stack development with Python, TypeScript, Next.js, FastAPI, and AWS.",
+    "education": "\ud83c\udf93 Completed a Bachelor of Science in Computer Science from Gda\u0144sk University of Technology (October 2018 \u2013 June 2022).",
+    "competitive_programming": "\ud83c\udfc6 Passionate about problem solving, open-source collaboration, and building developer tools, AI applications, and scalable software systems."
+  },
+  "statistics": {
+    "coding_questions": "200+",
+    "leetcode_rating": "1500+",
+    "projects": "8+",
+    "contests": "10+",
+    "industry_certifications": "3",
+    "open_source_prs": "10+"
+  },
+  "languages": [
+    {
+      "name": "Polish",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Professional"
+    }
+  ],
+  "social_profiles": [
+    {
+      "id": 1,
+      "name": "GitHub",
+      "link": "https://github.com/larrymargerum01",
+      "icon": "FaGithub"
+    },
+    {
+      "id": 2,
+      "name": "HackerRank",
+      "link": "https://www.hackerrank.com/larrymargerum191/hackos",
+      "icon": "FaHackerRank"
+    }
+  ],
+  "site": {
+    "counter_namespace": "portfolio",
+    "tech_stack": [
+      "React 19",
+      "Vite 8",
+      "Tailwind v4",
+      "Motion",
+      "TypeScript"
+    ]
+  }
 }

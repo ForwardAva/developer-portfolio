@@ -12,13 +12,13 @@ interface ServiceAnimationProps {
 }
 
 const ANIM_MAP: Record<string, React.FC<{ color: string }>> = {
-   "Full-Stack Development": StackAnim,
+   "Full-Stack Engineering": StackAnim,
    "Cloud & DevOps": PipelineAnim,
-   "AI/ML & MLOps": NeuralNetAnim,
-   "AI Agents & Tooling": AgentChatAnim,
-   "AI-Driven Development (AI-DLC)": AiDlcAnim,
-   "Cloud Consulting": ArchitectureAnim,
-   "Competitive Programming": SortAnim,
+   "AI Engineering": AiDlcAnim,
+   "AI Agents & Automation": AgentChatAnim,
+   "Machine Learning": NeuralNetAnim,
+   "Software Engineering": ArchitectureAnim,
+   "Open Source & Collaboration": SortAnim,
 };
 
 const ServiceAnimation = ({ title, color }: ServiceAnimationProps) => {

@@ -170,7 +170,7 @@ const ProjectCard = ({ data, index = 0, onOpen }: ProjectCardProps) => {
                         accentColor={colors.accent}
                      />
                   )}
-                  {hasLive && (
+                  {/* {hasLive && (
                      <ProjectLink
                         href={data.live}
                         label="Live Demo"
@@ -178,7 +178,7 @@ const ProjectCard = ({ data, index = 0, onOpen }: ProjectCardProps) => {
                         icon={ExternalLink}
                         accentColor={colors.accent}
                      />
-                  )}
+                  )} */}
                </div>
             )}
          </div>

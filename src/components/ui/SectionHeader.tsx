@@ -22,7 +22,7 @@ const SectionHeader = ({ title, subtitle }: Props) => {
          whileInView="visible"
          viewport={{ once: true, margin: "0px 0px -100px 0px" }}
       >
-         {subtitle && <span className="badge-pill">{subtitle}</span>}
+         {/* {subtitle && <span className="badge-pill">{subtitle}</span>} */}
          <h2
             style={{
                fontSize: "clamp(1.75rem, 4vw, 2.5rem)",

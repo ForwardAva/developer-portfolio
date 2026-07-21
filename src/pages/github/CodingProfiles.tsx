@@ -43,7 +43,7 @@ const PLATFORM_CONFIG: Record<
       color: PURPLE,
       icon: Star,
       highlight: (s) => s.problem_solving ?? "",
-      subtitle: (s) => `Problem Solving | ${s.cpp ?? "?"} C++`,
+      subtitle: (s) => `Problem Solving | ${s.python ?? "?"} Python`,
    },
 };
 

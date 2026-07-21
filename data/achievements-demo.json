@@ -1,0 +1,46 @@
+{
+  "certifications": [
+    {
+      "id": 6,
+      "name": "AWS Certified Cloud Practitioner",
+      "type": "Industry Certification",
+      "issuer": "Amazon Web Services Training and Certification",
+      "issueDate": "2024-05-02",
+      "badgeId": "bf8ffb47-284c-4c45-adb8-3df4f807e404",
+      "badgeUrl": "https://www.credly.com/badges/bf8ffb47-284c-4c45-adb8-3df4f807e404",
+      "level": "Foundational",
+      "expiryDate": "2029-01-31",
+      "imageUrl": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+    }
+  ],
+  "learning_badges": [
+    {
+      "id": 1,
+      "name": "AWS AI-Driven Development Lifecycle (AI-DLC) Ambassador Foundational (L100)",
+      "type": "Training Badge",
+      "issuer": "AWS Worldwide Field Enablement",
+      "issueDate": "2026-06-19",
+      "badgeId": "7d49f6fd-e4e7-478e-8bec-7d6c4c91c447",
+      "badgeUrl": "https://www.credly.com/badges/7d49f6fd-e4e7-478e-8bec-7d6c4c91c447",
+      "level": "Foundational",
+      "imageUrl": "https://images.credly.com/images/4897ff5f-0a15-4ac4-874e-8cb5443e7f28/blob"
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "1st Place - Coding Cauldron Online, Version '23",
+      "organizer": "NIT Trichy",
+      "date": "March 2023",
+      "type": "Competition"
+    }
+  ],
+  "coding_platform_stats": {
+    "hackerrank": {
+      "username": "Larry Margerum",
+      "react": "5-Star",
+      "python": "4-Star",
+      "url": "https://www.hackerrank.com/larrymargerum191"
+    }
+  }
+}

@@ -26,7 +26,7 @@ const PageSection = ({
          id={id}
          className="py-24 px-6"
          style={{
-            padding: isMobile ? "64px 16px" : "96px 24px",
+            padding: isMobile ? "16px 16px 32px" : "0px 24px 60px",
             scrollMarginTop: 64,
          }}
          initial="hidden"

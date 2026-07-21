@@ -1,12 +1,10 @@
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa6";
-import { SiX } from "react-icons/si";
+import { FaStackOverflow, FaGithub, FaHackerrank } from "react-icons/fa6";
 import type { IconMap } from "@/types";
 
 const ICON_MAP: IconMap = {
-   BsLinkedin: FaLinkedin,
+   FaStackOverflow: FaStackOverflow,
    FaGithub: FaGithub,
-   FiInstagram: FaInstagram,
-   SiX: SiX,
+   FaHackerRank: FaHackerrank,
 };
 
 export default ICON_MAP;

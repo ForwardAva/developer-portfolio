@@ -83,7 +83,7 @@ const NavBar = ({
                }}
                aria-label="Scroll to top"
             >
-               SG
+               LM
             </button>
 
             {/* Desktop nav links + CTA */}

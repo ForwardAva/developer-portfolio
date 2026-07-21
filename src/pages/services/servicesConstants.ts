@@ -10,13 +10,13 @@ import {
 import type { LucideIcon } from "lucide-react";
 
 export const iconMap: Record<string, LucideIcon> = {
-   "Full-Stack Development": Code,
+   "Full-Stack Engineering": Code,
    "Cloud & DevOps": Cloud,
-   "AI/ML & MLOps": Brain,
-   "AI Agents & Tooling": Bot,
-   "AI-Driven Development (AI-DLC)": Sparkles,
-   "Cloud Consulting": Shield,
-   "Competitive Programming": Trophy,
+   "AI Engineering": Brain,
+   "AI Agents & Automation": Bot,
+   "Machine Learning": Sparkles,
+   "Software Engineering": Shield,
+   "Open Source & Collaboration": Trophy,
 };
 
 export interface AccentColor {

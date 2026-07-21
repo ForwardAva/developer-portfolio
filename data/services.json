@@ -1,79 +1,79 @@
 [
-   {
-      "id": 1,
-      "title": "Full-Stack Development",
-      "list": [
-         "Frontend & Backend Engineering",
-         "API Design & Integration",
-         "Database Architecture",
-         "Responsive Web Applications",
-         "Real-time Features & WebSockets"
-      ]
-   },
-   {
-      "id": 2,
-      "title": "Cloud & DevOps",
-      "list": [
-         "Cloud Infrastructure Design",
-         "Infrastructure as Code",
-         "CI/CD Pipeline Automation",
-         "Containerization & Orchestration",
-         "Blue-Green & Zero-Downtime Deployments"
-      ]
-   },
-   {
-      "id": 3,
-      "title": "AI/ML & MLOps",
-      "list": [
-         "End-to-End ML Pipelines",
-         "Model Training & Deployment",
-         "LLM Integration & RAG Systems",
-         "MLOps Automation & Monitoring",
-         "Data Analysis & Visualization"
-      ]
-   },
-   {
-      "id": 4,
-      "title": "AI Agents & Tooling",
-      "list": [
-         "MCP Server Development",
-         "Agent Skills & Workflow Design",
-         "AI-Powered Developer Tools",
-         "Automation & Productivity Systems",
-         "Open Source Community Building"
-      ]
-   },
-   {
-      "id": 7,
-      "title": "AI-Driven Development (AI-DLC)",
-      "list": [
-         "AI-first project setup: CLAUDE.md, skills, hooks, subagents",
-         "MCP integrations wired into the dev workflow",
-         "Spec-to-ship pipelines with Claude Code, Kiro, Amazon Q",
-         "Agent-executable runbooks and guardrails",
-         "Team enablement for AI pair-programming"
-      ]
-   },
-   {
-      "id": 5,
-      "title": "Cloud Consulting",
-      "list": [
-         "Cloud Migration Strategy",
-         "Architecture Design & Review",
-         "Security & Compliance Hardening",
-         "Cost Optimization",
-         "Performance Tuning"
-      ]
-   },
-   {
-      "id": 6,
-      "title": "Competitive Programming",
-      "list": [
-         "Algorithm Design & Analysis",
-         "Dynamic Programming",
-         "1600+ Problems Solved",
-         "LeetCode Knight Rating",
-         "Contest Strategy & Mentoring"
-      ]
-   }
+  {
+    "id": 1,
+    "title": "Full-Stack Engineering",
+    "list": [
+      "Frontend & Backend Application Development",
+      "REST API & GraphQL Integration",
+      "Scalable SaaS Architecture",
+      "Authentication & Authorization Systems",
+      "Real-time Collaboration Platforms"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "AI Engineering",
+    "list": [
+      "Large Language Model Integration",
+      "Retrieval-Augmented Generation (RAG)",
+      "Prompt Engineering & Evaluation",
+      "Production AI Application Development",
+      "Multi-Agent System Design"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Cloud & DevOps",
+    "list": [
+      "AWS Cloud Infrastructure",
+      "CI/CD Pipeline Automation",
+      "Containerization with Docker",
+      "Kubernetes Orchestration",
+      "Cloud-Native Application Deployment"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "AI Agents & Automation",
+    "list": [
+      "LangChain Workflow Development",
+      "LangGraph Agent Orchestration",
+      "Tool Calling & MCP Integration",
+      "AI Workflow Automation",
+      "Autonomous Coding Assistants"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Machine Learning",
+    "list": [
+      "Deep Learning with PyTorch",
+      "Natural Language Processing",
+      "Transformer-Based Architectures",
+      "Model Fine-Tuning & Evaluation",
+      "Embeddings & Semantic Search"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Software Engineering",
+    "list": [
+      "System Design & Architecture",
+      "Distributed Systems",
+      "Performance Optimization",
+      "Technical Documentation",
+      "Code Review & Mentorship"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Open Source & Collaboration",
+    "list": [
+      "Open Source Contributions",
+      "Distributed Team Collaboration",
+      "Agile & Scrum Practices",
+      "Technical Leadership",
+      "Community-Driven Development"
+    ]
+  }
 ]

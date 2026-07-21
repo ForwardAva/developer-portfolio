@@ -81,7 +81,7 @@ const About = () => {
                            fontWeight: 500,
                         }}
                      >
-                        currently building cloud infrastructure at AWS
+                        Actively looking for remote jobs
                      </span>
                   </div>
 

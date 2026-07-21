@@ -1,28 +1,26 @@
 {
    "languages": [
       "Python",
-      "JavaScript",
       "TypeScript",
-      "C++",
-      "Java",
+      "JavaScript",
       "SQL",
-      "HCL",
-      "Bash",
-      "Go",
+      "C/C++",
       "C#",
-      "R",
-      "HTML/CSS"
+      "Bash",
+      "Java",
+      "PHP"
    ],
    "frontend": [
       "React",
       "Next.js",
-      "Astro",
-      "Vite",
       "Tailwind CSS",
-      "Three.js",
-      "Motion",
       "Redux",
-      "MUI"
+      "MUI",
+      "HTML5",
+      "CSS3",
+      "Responsive Design",
+      "Component-Based Architecture",
+      "Vite"
    ],
    "backend": [
       "Node.js",
@@ -30,64 +28,54 @@
       "FastAPI",
       "REST API",
       "GraphQL",
-      "MongoDB",
+      "WebSockets",
       "PostgreSQL",
-      "MySQL",
+      "MongoDB",
       "Redis",
-      "SQLite"
+      "Prisma ORM",
+      "Microservices",
+      "Authentication & Authorization"
    ],
    "cloud_devops": [
-      "AWS (EC2, ECS, S3, Lambda, RDS, CloudFront)",
-      "AWS (CodePipeline, CodeBuild, CodeDeploy)",
-      "AWS (VPC, ALB, SNS, EventBridge, CloudWatch)",
-      "AWS (CloudFormation, X-Ray, Detective)",
-      "AWS (Organizations, SCPs, GuardDuty, Security Hub)",
-      "Terraform",
+      "AWS",
       "Docker",
-      "Ansible",
+      "Kubernetes",
       "GitHub Actions",
-      "Jenkins",
       "CI/CD Pipelines",
-      "GitOps",
-      "Blue-Green Deployment",
-      "AWS CDK",
-      "AWS Step Functions",
       "Infrastructure as Code",
-      "Linux"
+      "Linux",
+      "Cloud Architecture",
+      "Container Orchestration"
    ],
    "ai_ml": [
-      "AWS SageMaker",
-      "AWS Bedrock",
-      "Amazon Q",
-      "TensorFlow",
-      "PyTorch",
-      "Scikit-learn",
-      "Pandas / NumPy",
-      "LSTM / Neural Networks",
-      "OpenCV / Image Processing",
+      "Machine Learning",
       "Deep Learning",
-      "MLOps",
-      "LLM APIs",
+      "PyTorch",
+      "LangChain",
+      "LangGraph",
+      "Hugging Face Transformers",
+      "Large Language Models",
       "RAG Pipelines",
-      "Feast (Feature Store)",
-      "LLMOps"
+      "Prompt Engineering",
+      "AI Agents",
+      "Multi-Agent Systems",
+      "Embeddings",
+      "Model Evaluation",
+      "Fine-Tuning"
    ],
    "tools_platforms": [
-      "Claude Code",
-      "Kiro",
-      "Cursor AI",
-      "GitHub Copilot",
+      "OpenAI APIs",
+      "Anthropic APIs",
       "Git",
+      "GitHub",
       "VS Code",
-      "Jupyter Notebook",
       "Postman",
+      "Stripe",
+      "Jira",
       "Figma",
       "MCP Protocol",
-      "AI Agent Frameworks",
-      "SonarQube",
-      "Unity",
-      "Vercel",
-      "Chrome Extensions"
+      "Claude Code",
+      "Cursor AI"
    ],
    "cs_fundamentals": [
       "Data Structures & Algorithms",
@@ -95,7 +83,9 @@
       "Computer Networks",
       "Operating Systems",
       "Software Engineering",
-      "Database Management Systems"
+      "Database Management Systems",
+      "System Design",
+      "Distributed Systems"
    ],
    "soft_skills": [
       "Leadership",
@@ -107,10 +97,11 @@
    ],
    "areas_of_interest": [
       "Full-Stack Development",
-      "AI/ML Engineering",
-      "DevOps & Cloud",
-      "Open Source",
-      "AI Agents & MCP",
-      "Game Development"
+      "AI Engineering",
+      "LLMs & RAG",
+      "AI Agents",
+      "Multi-Agent Systems",
+      "Cloud & DevOps",
+      "Open Source"
    ]
 }

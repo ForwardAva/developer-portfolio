@@ -9,7 +9,7 @@ import CvViewerModal from "@components/ui/CvViewerModal/CvViewerModal";
 import HeroStats from "./HeroStats";
 import HeroSocial from "./HeroSocial";
 const RESUME_URL =
-   "https://github.com/Sagargupta16/latex-resume/releases/latest/download/resume.pdf";
+   "https://flowcv.com/resume/hilsned237sd";
 
 const HeroContent = () => {
    const [roleIndex, setRoleIndex] = useState(0);
@@ -60,7 +60,7 @@ const HeroContent = () => {
                }}
                aria-hidden="true"
             >
-               SG
+               LM
             </div>
          </motion.div>
 
@@ -77,7 +77,7 @@ const HeroContent = () => {
                      flexShrink: 0,
                   }}
                />
-               <span>DevOps/MLOps Consultant @ AWS</span>
+               <span>Actively looking for remote jobs.</span>
             </span>
          </motion.div>
 
@@ -137,7 +137,7 @@ const HeroContent = () => {
                aria-haspopup="dialog"
             >
                <FileText size={15} />
-               View CV
+               View Resume
             </motion.button>
             <motion.a
                href={RESUME_URL}
@@ -146,7 +146,7 @@ const HeroContent = () => {
                whileHover={{ scale: 1.04 }}
                whileTap={{ scale: 0.97 }}
             >
-               Download CV
+               Download Resume
             </motion.a>
          </motion.div>
 

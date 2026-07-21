@@ -28,15 +28,11 @@ const TimelineCardDesktop = ({
          layout="position"
          style={{
             display: "grid",
-            gridTemplateColumns: "160px 40px 1fr",
+            gridTemplateColumns: "240px 40px 1fr",
             gap: 0,
          }}
          variants={index % 2 === 0 ? slideInLeft : slideInRight}
          custom={index}
-         // Own viewport trigger: parent propagation breaks when the card
-         // remounts after a resize across the mobile/desktop boundary (the
-         // parent is already "visible", so late-mounting children would stay
-         // stuck at "hidden" forever).
          initial="hidden"
          whileInView="visible"
          viewport={{ once: true, margin: "0px 0px -60px 0px" }}

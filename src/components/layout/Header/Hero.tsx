@@ -21,7 +21,7 @@ const Hero = () => {
          {/* Dot texture comes from the site-wide AmbientBackground */}
          <HeroContent />
 
-         {/* Scroll indicator */}
+         {/* Scroll indicator
          <motion.button
             onClick={scrollToAbout}
             className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1 text-text-muted hover:text-text-primary transition-colors cursor-pointer"
@@ -34,7 +34,7 @@ const Hero = () => {
                Scroll
             </span>
             <ChevronDown className="w-5 h-5 animate-scroll-hint" />
-         </motion.button>
+         </motion.button> */}
       </section>
    );
 };
