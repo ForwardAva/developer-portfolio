@@ -1,11 +1,11 @@
 # Oscar Santos Garcia - Portfolio
 
-![GitHub stars](https://img.shields.io/github/stars/ForwardAva/Developer-Portfolio?style=flat-square&cacheSeconds=86400)
-![GitHub forks](https://img.shields.io/github/forks/ForwardAva/Developer-Portfolio?style=flat-square&cacheSeconds=86400)
+![GitHub stars](https://img.shields.io/github/stars/ForwardAva/developer-portfolio?style=flat-square&cacheSeconds=86400)
+![GitHub forks](https://img.shields.io/github/forks/ForwardAva/developer-portfolio?style=flat-square&cacheSeconds=86400)
 ![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/ForwardAva/Developer-Portfolio?style=flat-square&cacheSeconds=86400)
+![Last Commit](https://img.shields.io/github/last-commit/ForwardAva/developer-portfolio?style=flat-square&cacheSeconds=86400)
 
-[![CI/CD Pipeline](https://github.com/ForwardAva/Developer-Portfolio/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/ForwardAva/Developer-Portfolio/actions/workflows/ci-cd.yml)
+[![CI/CD Pipeline](https://github.com/ForwardAva/developer-portfolio/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/ForwardAva/developer-portfolio/actions/workflows/ci-cd.yml)
 
 ![React Version](https://img.shields.io/badge/react-19-blue)
 ![TypeScript](https://img.shields.io/badge/typescript-strict-3178c6)
@@ -61,7 +61,7 @@ A minimal dark personal portfolio: near-black canvas, one blue accent family, fl
 
 ```bash
 # Clone the repository
-git clone https://github.com/ForwardAva/Developer-Portfolio.git
+git clone https://github.com/ForwardAva/developer-portfolio.git
 cd portfolio
 
 # Install dependencies (requires pnpm >=10, Node >=24.11)
