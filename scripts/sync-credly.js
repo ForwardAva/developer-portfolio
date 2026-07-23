@@ -6,7 +6,7 @@
  *
  * Usage: node scripts/sync-credly.js
  *
- * Env: CREDLY_USERNAME (default: sagar-gupta.f8eb96cc)
+ * Env: CREDLY_USERNAME (default: oscar-garcia.f8eb96cc)
  */
 
 import { readFileSync, writeFileSync } from "node:fs";
@@ -15,7 +15,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = resolve(__dirname, "../data/achievements.json");
-const CREDLY_USERNAME = process.env.CREDLY_USERNAME || "sagar-gupta.f8eb96cc";
+const CREDLY_USERNAME = process.env.CREDLY_USERNAME || "oscar-garcia.f8eb96cc";
 const API_URL = `https://www.credly.com/users/${CREDLY_USERNAME}/badges.json`;
 
 // Patterns that identify a full industry certification (not a learning badge)

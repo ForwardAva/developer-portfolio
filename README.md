@@ -1,11 +1,11 @@
-# Larry Margerum - Portfolio
+# Oscar Santos Garcia - Portfolio
 
-![GitHub stars](https://img.shields.io/github/stars/larrymargerum01/Developer-Portfolio?style=flat-square&cacheSeconds=86400)
-![GitHub forks](https://img.shields.io/github/forks/larrymargerum01/Developer-Portfolio?style=flat-square&cacheSeconds=86400)
+![GitHub stars](https://img.shields.io/github/stars/ForwardAva/Developer-Portfolio?style=flat-square&cacheSeconds=86400)
+![GitHub forks](https://img.shields.io/github/forks/ForwardAva/Developer-Portfolio?style=flat-square&cacheSeconds=86400)
 ![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/larrymargerum01/Developer-Portfolio?style=flat-square&cacheSeconds=86400)
+![Last Commit](https://img.shields.io/github/last-commit/ForwardAva/Developer-Portfolio?style=flat-square&cacheSeconds=86400)
 
-[![CI/CD Pipeline](https://github.com/larrymargerum01/Developer-Portfolio/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/larrymargerum01/Developer-Portfolio/actions/workflows/ci-cd.yml)
+[![CI/CD Pipeline](https://github.com/ForwardAva/Developer-Portfolio/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/ForwardAva/Developer-Portfolio/actions/workflows/ci-cd.yml)
 
 ![React Version](https://img.shields.io/badge/react-19-blue)
 ![TypeScript](https://img.shields.io/badge/typescript-strict-3178c6)
@@ -13,7 +13,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-v4-06b6d4)
 ![Tests](https://img.shields.io/badge/tests-4%20passing-22c55e)
 
-**Live:** [sagargupta.online/portfolio](https://sagargupta.online/portfolio/)
+**Live:** [oscar-garcia-portfolio.pages.dev](https://oscar-garcia-portfolio.pages.dev/)
 
 ---
 
@@ -61,7 +61,7 @@ A minimal dark personal portfolio: near-black canvas, one blue accent family, fl
 
 ```bash
 # Clone the repository
-git clone https://github.com/larrymargerum01/Developer-Portfolio.git
+git clone https://github.com/ForwardAva/Developer-Portfolio.git
 cd portfolio
 
 # Install dependencies (requires pnpm >=10, Node >=24.11)
@@ -189,10 +189,10 @@ Automated via GitHub Actions CI/CD pipeline (all actions pinned to SHA hashes):
 
 | Project                                                                                | Description                                                            |
 | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [AI Sass Platform](https://github.com/larrymargerum01/AI-Sass-Platform)         | Save 30-60% on Claude Code costs - proven strategies and benchmarks    |
-| [LLM Platform](https://github.com/larrymargerum01/LLM-Platform)             | Modern React financial dashboard with analytics and data visualization |
-| [Codding Assistant](https://github.com/larrymargerum01/Codding-Assistant) | Browser tool showing who likes your Instagram posts the most           |
-| [Agent Engine](https://github.com/larrymargerum01/Agent-Engine) | Full-stack ML-powered LeetCode contest rating predictor                |
+| [AI Sass Platform](https://github.com/ForwardAva/AI-Sass-Platform)         | Save 30-60% on Claude Code costs - proven strategies and benchmarks    |
+| [LLM Platform](https://github.com/ForwardAva/LLM-Platform)             | Modern React financial dashboard with analytics and data visualization |
+| [Codding Assistant](https://github.com/ForwardAva/Codding-Assistant) | Browser tool showing who likes your Instagram posts the most           |
+| [Agent Engine](https://github.com/ForwardAva/Agent-Engine) | Full-stack ML-powered LeetCode contest rating predictor                |
 
 ---
 

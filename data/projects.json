@@ -2,227 +2,125 @@
    "featured_projects": [
       {
          "id": 1,
-         "title": "AI SaaS Platform",
-         "date": "September 2023 - May 2024",
+         "title": "SN Code Library",
+         "date": "Sep 2021 - Oct 2025",
          "tools_tech": [
-            "Next.js",
-            "TypeScript",
-            "FastAPI",
-            "Stripe",
-            "AWS",
-            "Docker",
-            "OpenAI API",
-            "PostgreSQL",
-            "Redis",
-            "GitHub Actions",
-            "Tailwind CSS",
+            "JavaScript",
+            "GlideScript",
+            "ServiceNow APIs",
+            "Business Rules",
+            "Client Scripts",
+            "Script Includes",
             "REST APIs"
          ],
          "features": [
-            "Offers AI-powered content generation capabilities leveraging large language models for text generation, summarization, and business workflows.",
-            "Includes a subscription management system with Stripe integration, supporting multiple pricing tiers and recurring billing.",
-            "Provides a comprehensive administrative dashboard for user management, analytics, usage monitoring, and feature configuration.",
-            "Supports a scalable multi-tenant architecture with role-based access control, API rate limiting, and cloud deployment automation."
+            "Developed reusable ServiceNow scripts covering Business Rules, Client Scripts, Background Scripts, and Script Includes for automating platform operations",
+            "Demonstrated server-side and client-side JavaScript development patterns used to customize ServiceNow applications and improve user workflows.",
+            "Implemented examples for data manipulation, record automation, validation logic, and platform integrations using ServiceNow APIs.",
+            "Provided practical solutions for common enterprise ServiceNow development scenarios, helping developers understand scalable scripting practices."
          ],
-         "github": "https://github.com/larrymargerum01/AI-Sass-Platform",
+         "github": null,
          "live": null
       },
       {
          "id": 2,
-         "title": "LLM Platform",
-         "date": "September 2025 - Present",
+         "title": "Security ITSM Connector",
+         "date": "Jun 2025 - Jun 2026",
          "tools_tech": [
+            "ServiceNow",
+            "REST API",
+            "JavaScript",
+            "TypeScript",
             "Python",
-            "LangChain",
-            "LangGraph",
-            "RAG",
-            "Docker",
-            "Kubernetes",
-            "PostgreSQL",
-            "AWS",
-            "OpenAI API",
-            "Qdrant",
-            "Redis",
-            "FastAPI"
+            "OAuth",
+            "API Integration",
+            "Workflow Automation"
          ],
          "features": [
-            "Provides a no-code and low-code environment for building, deploying, and managing LLM-powered applications.",
-            "Includes Retrieval-Augmented Generation capabilities with support for knowledge bases, embeddings, and document indexing.",
-            "Enables centralized management of multiple AI models, prompts, and application configurations across environments.",
-            "Offers enterprise-grade monitoring, analytics, and workflow automation tools for operating AI applications at scale."
+            "Built automated ServiceNow incident workflows to create and update records from external security events.",
+            "Developed REST API integrations with authentication, data mapping, and enterprise system synchronization.",
+            "Automated incident routing and tracking processes to improve operational efficiency.",
+            "Designed integrations between external security platforms and ServiceNow ITSM modules."
          ],
-         "github": "https://github.com/larrymargerum01/LLM-Platform",
-         "live": "https://dify.ai"
+         "github": null,
+         "live": null
       },
       {
          "id": 3,
-         "title": "Agent Engine",
-         "date": "May 2025 - August 2025",
+         "title": "Workflow Tracker",
+         "date": "Jan 2024 - Jul 2024",
          "tools_tech": [
-            "Python",
-            "LangGraph",
-            "LangChain",
-            "Docker",
-            "AWS",
-            "FastAPI",
-            "PostgreSQL",
-            "OpenAI API",
-            "Anthropic API",
-            "Redis",
-            "Pydantic",
-            "AI Agents"
-         ],
-         "features": [
-            "Provides a framework for building stateful, multi-agent applications with support for complex workflow orchestration.",
-            "Enables persistent memory, checkpointing, and recovery mechanisms for long-running AI processes.",
-            "Supports tool calling, conditional routing, and human-in-the-loop interactions to improve agent reliability.",
-            "Offers reusable components for designing scalable AI systems with modular and maintainable architectures."
-         ],
-         "github": "https://github.com/larrymargerum01/Agent-Engine",
-         "live": "https://www.langchain.com/langgraph"
-      },
-      {
-         "id": 4,
-         "title": "Coding Assistant",
-         "date": "January 2025 - April 2025",
-         "tools_tech": [
-            "Python",
-            "TypeScript",
+            "Next.js",
             "React",
-            "Docker",
-            "Next",
-            "Anthropic API",
-            "OpenAI API",
-            "Tailwind CSS",
+            "TypeScript",
             "Node.js",
-            "GitHub Actions",
-            "SQLite",
-            "REST APIs"
+            "Prisma",
+            "PostgreSQL",
+            "Tailwind CSS",
+            "REST API",
+            "Docker"
          ],
          "features": [
-            "Enables AI-driven software engineering workflows including code generation, debugging, refactoring, and documentation creation.",
-            "Supports autonomous task execution through tool integrations, shell access, and repository-aware agent capabilities.",
-            "Provides compatibility with multiple LLM providers, allowing dynamic model selection based on task requirements.",
-            "Includes conversational interfaces and execution environments for iterative problem solving and developer assistance."
+            "Developed an issue tracking system supporting ticket creation, assignment, prioritization, status management, and workflow-based resolution.",
+            "Implemented user authentication and role-based permissions for administrators, managers, and team members.",
+            "Built interactive dashboards for monitoring issues, project activities, and operational performance metrics.",
+            "Designed scalable database models and API services to manage users, tickets, comments, and workflow records."
          ],
-         "github": "https://github.com/larrymargerum01/Codding-Assistant",
-         "live": "https://www.all-hands.dev"
+         "github": null,
+         "live": null
       }
    ],
    "collaborative_projects": [
       {
+         "id": 4,
+         "title": "Modern CRM Platform",
+         "date": "Nov 2022 - Present",
+         "tools_tech": [
+            "TypeScript",
+            "React",
+            "NestJS",
+            "PostgreSQL",
+            "GraphQL",
+            "Node.js",
+            "Docker",
+            "REST API"
+         ],
+         "features": [
+            "Developed flexible CRM data models for managing companies, contacts, opportunities, tasks, and sales activities similar to Salesforce objects.",
+            "Implemented customizable workflows and relationship management features to support business processes and customer lifecycle tracking.",
+            "Built role-based access control and organization management features for enterprise users and teams.",
+            "Created API-driven architecture supporting integrations with external applications and third-party business systems."
+         ],
+         "github": null,
+         "live": null
+      },
+      {
          "id": 5,
-         "title": "Workspace Hub",
-         "date": "January 2023 - August 2023",
+         "title": "Monica CRM",
+         "date": "Nov 2021 - Aug 2025",
          "tools_tech": [
-            "Flutter",
-            "TypeScript",
-            "Rust",
-            "Docker",
-            "Git",
-            "PostgreSQL",
-            "GitHub",
-            "REST APIs",
+            "PHP",
+            "Laravel",
+            "Vue.js",
+            "JavaScript",
+            "MySQL",
             "Redis",
-            "Linux",
-            "CI/CD",
-            "Figma"
-         ],
-         "features": [
-            "Delivers a collaborative workspace experience with support for notes, documents, and knowledge management across teams.",
-            "Includes rich text editing capabilities with support for tables, media embeds, and customizable content blocks.",
-            "Enables real-time synchronization of workspace data across desktop and mobile devices for a seamless user experience.",
-            "Provides workspace organization features such as folders, permissions, and project-specific document management."
-         ],
-         "github": "https://github.com/larrymargerum01/Workspace-Hub",
-         "live": "https://appflowy.io"
-      },
-      {
-         "id": 6,
-         "title": "Agile Suite",
-         "date": "June 2024 - December 2024",
-         "tools_tech": [
-            "Next.js",
-            "Python",
-            "PostgreSQL",
-            "Redis",
-            "AWS",
+            "REST API",
             "Docker",
-            "TypeScript",
-            "REST APIs",
-            "GitHub Actions",
-            "Tailwind CSS",
-            "CI/CD",
-            "Jest"
+            "PHPUnit"
          ],
          "features": [
-            "Enables end-to-end project management with support for tasks, issues, milestones, and sprint planning workflows.",
-            "Provides customizable Kanban boards, roadmaps, and backlog management tools for Agile software development teams.",
-            "Includes collaboration features such as comments, notifications, and activity tracking to improve team productivity.",
-            "Offers workflow automation and reporting capabilities to monitor project progress and optimize delivery timelines."
+            "Developed contact management functionality for organizing personal and professional relationships with profiles, notes, tags, and custom information fields.",
+            "Implemented activity tracking workflows including reminders, tasks, events, and follow-up scheduling to maintain relationship engagement.",
+            "Built timeline-based interaction history allowing users to record conversations, activities, and important customer-related events.",
+            "Created structured database models and REST APIs for managing users, contacts, relationships, and application data efficiently."
          ],
-         "github": "https://github.com/larrymargerum01/Agile-Suite",
-         "live": "https://plane.so"
-      },
-      {
-         "id": 7,
-         "title": "Smart Scheduling",
-         "date": "January 2022 - December 2022",
-         "tools_tech": [
-            "Next",
-            "TypeScript",
-            "Node",
-            "Docker",
-            "Prisma",
-            "PostgreSQL",
-            "Google Calendar API",
-            "Microsoft Outlook API",
-            "Tailwind CSS",
-            "REST APIs",
-            "GitHub Actions",
-            "Jest"
-         ],
-         "features": [
-            "Allows users to create personalized booking pages with configurable availability, time zones, and scheduling preferences.",
-            "Supports team scheduling, round-robin assignments, and collective event booking for distributed organizations.",
-            "Integrates with Google Calendar, Outlook, and Apple Calendar for real-time synchronization.",
-            "Provides secure authentication, notifications, and payment integrations for managing appointments and paid consultations."
-         ],
-         "github": "https://github.com/larrymargerum01/Smart-Scheduling",
-         "live": "https://cal.com"
-      },
-      {
-         "id": 8,
-         "title": "Transformer NLP Suite",
-         "date": "June 2021 - December 2021",
-         "tools_tech": [
-            "Python",
-            "PyTorch",
-            "Git",
-            "NLP",
-            "Scikit-learn",
-            "Hugging Face Transformers",
-            "Pandas",
-            "NumPy",
-            "Jupyter Notebook",
-            "Matplotlib",
-            "Linux",
-            "OpenCV"
-         ],
-         "features": [
-            "Supports multiple NLP tasks including text classification, question answering, named entity recognition, and language modeling through a unified API.",
-            "Provides configurable training pipelines with support for custom datasets, hyperparameter tuning, and experiment tracking.",
-            "Includes automated model evaluation and benchmarking capabilities with detailed performance metrics and validation reports.",
-            "Enables seamless integration with Hugging Face transformer models for rapid prototyping and production deployment."
-         ],
-         "github": "https://github.com/larrymargerum01/Transformer-NLP-Suite",
+         "github": null,
          "live": null
       }
    ],
    "other_projects": [],
    "community_projects": [],
-   "open_source_contributions": [
-   ],
-   "community_discussions": [
-   ]
+   "open_source_contributions": [],
+   "community_discussions": []
 }

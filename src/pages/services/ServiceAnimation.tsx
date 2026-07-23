@@ -1,8 +1,8 @@
 import StackAnim from "./animations/StackAnim";
-import PipelineAnim from "./animations/PipelineAnim";
+// import PipelineAnim from "./animations/PipelineAnim";
 import NeuralNetAnim from "./animations/NeuralNetAnim";
 import AgentChatAnim from "./animations/AgentChatAnim";
-import ArchitectureAnim from "./animations/ArchitectureAnim";
+// import ArchitectureAnim from "./animations/ArchitectureAnim";
 import SortAnim from "./animations/SortAnim";
 import AiDlcAnim from "./animations/AiDlcAnim";
 
@@ -12,12 +12,10 @@ interface ServiceAnimationProps {
 }
 
 const ANIM_MAP: Record<string, React.FC<{ color: string }>> = {
-   "Full-Stack Engineering": StackAnim,
-   "Cloud & DevOps": PipelineAnim,
-   "AI Engineering": AiDlcAnim,
-   "AI Agents & Automation": AgentChatAnim,
-   "Machine Learning": NeuralNetAnim,
-   "Software Engineering": ArchitectureAnim,
+   "Enterprise Software Design & Development": StackAnim,
+   "Salesforce CRM Solutions & Automation": AiDlcAnim,
+   "ServiceNow Enterprise Platform Engineering": AgentChatAnim,
+   "Business Process Integration & Workflow Automation": NeuralNetAnim,
    "Open Source & Collaboration": SortAnim,
 };
 

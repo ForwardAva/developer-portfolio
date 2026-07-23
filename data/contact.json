@@ -4,24 +4,24 @@
          "id": 1,
          "icon": "MdOutlineEmail",
          "title": "Email Me",
-         "value": "larrymargerum1950@gmail.com ",
-         "link": "mailto:larrymargerum1950@gmail.com ",
+         "value": "oscar.garcia.work2@gmail.com ",
+         "link": "mailto:oscar.garcia.work2@gmail.com ",
          "message": "Send a Mail"
       },
       {
          "id": 4,
          "icon": "FiCalendar",
          "title": "Book a Call",
-         "value": "cal.com/larrymargerum",
-         "link": "https://cal.com/larrymargerum-5664",
+         "value": "cal.com/oscar-garcia",
+         "link": "https://cal.com/oscar-garcia-5664",
          "message": "Schedule"
       },
       {
          "id": 5,
          "icon": "FiGithub",
          "title": "GitHub",
-         "value": "larrymargerum01",
-         "link": "https://github.com/larrymargerum01",
+         "value": "ForwardAva",
+         "link": "https://github.com/ForwardAva",
          "message": "Follow"
       }
    ],

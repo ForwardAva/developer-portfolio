@@ -11,12 +11,12 @@ import SecondarySkills from "./SecondarySkills";
 // Display order leads with the strongest positioning (DevOps/MLOps @ AWS),
 // mirroring the hero badge -- not alphabetical, not stack-conventional.
 const CATEGORY_CONFIG: Record<string, string> = {
+   enterprise_platforms: "Enterprise Platforms",
    languages: "Languages",
-   ai_ml: "AI / Machine Learning",
    frontend: "Frontend",
    backend: "Backend & Databases",
    cloud_devops: "Cloud & DevOps",
-   tools_platforms: "Tools & Platforms",
+   database: "Database",
 };
 
 const SECONDARY_CATEGORIES: string[] = [

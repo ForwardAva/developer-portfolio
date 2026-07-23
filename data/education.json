@@ -1,26 +1,25 @@
 [
   {
     "id": 1,
-    "date": "Oct 2018 \u2013 Jun 2021",
-    "title": "Bachelor's Degree in Computer Science (B.Sc.)",
-    "institution": "Warsaw University of Technology",
+    "date": "Aug 2018 \u2013 May 2022",
+    "title": "B.S. Computer Science",
+    "institution": "De La Salle University",
     "institutionType": "Public Technical University",
-    "department": "Faculty of Electronics, Telecommunications and Informatics",
-    "location": "Warsaw, Poland",
-    "cgpa": "9.23",
-    "percentage": "92.3%",
-    "display_text": "Warsaw University of Technology - Warsaw, Poland",
+    "department": "Department of Software Technology (ST)",
+    "location": "Manila, Philippines",
+    "cgpa": "9.13",
+    "percentage": "91.3%",
+    "display_text": "De La Salle University - Manila, Philippines",
     "achievements": [
-      "Artificial Intelligence Certification (Apr 2022)",
-      "Cloud Computing Fundamentals Certification (Sep 2021)",
-      "Full-Stack Development Certification (Feb 2021)"
+      "Salesforce Platform Fundamentals — Salesforce Trailhead (2020)",
+      "ServiceNow Fundamentals Training — ServiceNow (2021)"
     ],
     "skills": [
-      "Data Structures & Algorithms",
-      "Machine Learning",
-      "Large Language Models",
-      "Cloud Computing",
-      "Full-Stack Development"
+      "Enterprise Software Development",
+      "CRM & Business Process Automation",
+      "Cloud Computing & Enterprise Architecture",
+      "Full-Stack Web Application Development",
+      "Artificial Intelligence & LLM Integration"
     ]
   }
 ]

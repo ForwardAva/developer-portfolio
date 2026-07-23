@@ -23,7 +23,7 @@ const DOT_STYLE = {
 
 const BrowserMockup = ({
    children,
-   path = ["sagargupta16", "contributions"],
+   path = ["oscargarcia", "contributions"],
    tiltDeg = 48,
 }: BrowserMockupProps) => {
    const ref = useRef<HTMLDivElement>(null);

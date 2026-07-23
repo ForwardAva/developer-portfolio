@@ -1,29 +1,29 @@
 {
-  "name": "Larry Margerum",
-  "title": "Full Stack & AI Engineer",
-  "location": "Hel, Pomeranian Voivodeship, Poland",
+  "name": "Oscar Santos Garcia",
+  "title": "Enterprise Application Developer | Salesforce & ServiceNow Specialist",
+  "location": "Puerto Princesa City, Palawan, Philippines",
   "contact": {
-    "email": "larrymargerum01@gmail.com",
+    "email": "oscar.garcia.work2@gmail.com",
     "phone": "+1 (202) 681 5715",
-    "github": "larrymargerum01"
+    "github": "ForwardAva"
   },
   "roles": [
-    "Full Stack Engineer",
-    "AI Engineer",
-    "Technical Collaborator",
-    "Open Source Contributor",
-    "Product Builder"
+    "Enterprise Software Developer",
+    "Salesforce Developer",
+    "ServiceNow Developer",
+    "Business Process Automation Engineer",
+    "Open Source Contributor"
   ],
   "about": {
-    "greeting": "\ud83d\udc4b Hi, I'm Larry Margerum.",
-    "current_role": "\ud83d\udcbc Full Stack & AI Engineer delivering scalable SaaS platforms, production AI systems, and cloud-native applications using modern web technologies and large language models.",
-    "specialization": "\ud83d\ude80 Specializing in LLMs, RAG pipelines, AI agents, multi-agent systems, and full-stack development with Python, TypeScript, Next.js, FastAPI, and AWS.",
-    "education": "\ud83c\udf93 Completed a Bachelor of Science in Computer Science from Gda\u0144sk University of Technology (October 2018 \u2013 June 2022).",
-    "competitive_programming": "\ud83c\udfc6 Passionate about problem solving, open-source collaboration, and building developer tools, AI applications, and scalable software systems."
+    "greeting": "\ud83d\udc4b Hi, I'm Oscar Santos Garcia.",
+    "current_role": "\ud83d\udcbc Enterprise Application Engineer specializing in Salesforce, ServiceNow, workflow automation, and AI-driven solutions to build scalable business platforms and digital transformation systems.",
+    "specialization": "\ud83d\ude80 Specializing in Salesforce, ServiceNow, full-stack development, cloud technologies, and intelligent automation using modern web frameworks and AI technologies.",
+    "education": "\ud83c\udf93 De La Salle University — Bachelor of Science in Computer Science (Sep 2018 – May 2022)",
+    "competitive_programming": "\ud83c\udfc6 Passionate about solving complex business challenges, designing scalable enterprise solutions, and building automation platforms, AI-powered applications, and modern software systems."
   },
   "statistics": {
     "coding_questions": "200+",
-    "leetcode_rating": "1500+",
+    "leetcode_rating": "0+",
     "projects": "8+",
     "contests": "10+",
     "industry_certifications": "3",
@@ -31,30 +31,34 @@
   },
   "languages": [
     {
-      "name": "Polish",
+      "name": "Filipino",
       "level": "Native"
     },
     {
       "name": "English",
       "level": "Professional"
+    },
+    {
+      "name": "Spanish",
+      "level": "Basic"
     }
   ],
   "social_profiles": [
     {
       "id": 1,
       "name": "GitHub",
-      "link": "https://github.com/larrymargerum01",
+      "link": "https://github.com/ForwardAva",
       "icon": "FaGithub"
     },
     {
       "id": 2,
       "name": "HackerRank",
-      "link": "https://www.hackerrank.com/larrymargerum191/hackos",
+      "link": "https://www.hackerrank.com/oscar_garcia_wo1",
       "icon": "FaHackerRank"
     }
   ],
   "site": {
-    "counter_namespace": "portfolio",
+    "counter_namespace": "",
     "tech_stack": [
       "React 19",
       "Vite 8",

@@ -3,7 +3,7 @@
    "version": "4.1.0",
    "type": "module",
    "private": true,
-   "homepage": "https://larrymargerum-portfolio.pages.dev/",
+   "homepage": "https://oscar-garcia-portfolio.pages.dev/",
    "scripts": {
       "dev": "vite",
       "build": "vite build",
@@ -64,11 +64,11 @@
    "description": "A dynamic and interactive React portfolio showcasing professional experience as a Full Stack & AI Engineer. Features modern JSON-based data architecture, responsive design, and seamless deployment with CI/CD pipelines.",
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/larrymargerum01/Developer-Portfollio.git"
+      "url": "git+https://github.com/ForwardAva/Developer-Portfollio.git"
    },
-   "author": "Larry Margerum <sg85207@gmail.com>",
+   "author": "Oscar Santos Garcia <sg85207@gmail.com>",
    "license": "GPL-3.0",
    "bugs": {
-      "url": "https://github.com/larrymargerum01/Developer-Portfollio/issues"
+      "url": "https://github.com/ForwardAva/Developer-Portfollio/issues"
    }
 }

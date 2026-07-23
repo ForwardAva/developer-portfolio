@@ -2,106 +2,59 @@
    "professional_experience": [
       {
          "id": 1,
-         "date": "Jan 2025 \u2013 Jun 2026",
-         "title": "AI Engineer",
-         "position": "Full-time Remote",
-         "company": "Twelve Labs",
-         "location": "San Francisco, California, USA",
-         "summary": "Built production-grade AI applications leveraging LLMs, RAG pipelines, and multi-agent architectures while collaborating with distributed engineering teams.",
+         "date": "Nov 2025 – Jun 2026",
+         "title": "Enterprise Application Developer",
+         "position": "Full-time",
+         "company": "Deloitte Technology",
+         "location": "Remote",
+         "summary": "Developed enterprise applications integrating CRM, ITSM, and business systems to automate workflows, improve operational efficiency, and support digital transformation initiatives.",
          "projects": [
             {
-               "name": "LLM Platform",
-               "date": "Sep 2025 - Jun 2026",
+               "name": " Enterprise Digital Platform Integration & Automation",
+               "date": "Nov 2025 - Jun 2026",
                "description": {
-                  "1": "Developed 15+ RAG pipelines for enterprise AI applications.",
-                  "2": "Improved retrieval accuracy by ~30% using vector search and prompt optimization techniques.",
-                  "3": "Integrated support for 10+ knowledge bases and document ingestion workflows.",
-                  "4": "Containerized and deployed services using Docker and Kubernetes."
+                  "1": "Developed 25+ enterprise components using JavaScript, TypeScript, React, and Node.js to support business workflows.",
+                  "2": "Built 15+ REST API integrations connecting Salesforce, ServiceNow, and third-party systems for improved data synchronization.",
+                  "3": "Automated 20+ workflows using ServiceNow Flow Designer, Salesforce tools, and custom scripts, reducing manual tasks by 30%.",
+                  "4": "Improved delivery processes with Git workflows, automated testing, and CI/CD pipelines, supporting 10+ releases."
                },
                "skills": [
-                  "Python",
-                  "LangChain",
-                  "LangGraph",
-                  "RAG",
-                  "Docker",
-                  "Kubernetes",
-                  "PostgreSQL",
-                  "AWS",
-                  "OpenAI API",
-                  "Qdrant",
-                  "Redis",
-                  "FastAPI"
-               ]
-            },
-            {
-               "name": "Agent Engine",
-               "date": "May 2025 - Aug 2025",
-               "description": {
-                  "1": "Built 12+ multi-agent workflows using LangGraph and LangChain.",
-                  "2": "Implemented persistent memory and checkpointing across 6 production use cases.",
-                  "3": "Reduced workflow execution failures by ~22% through state management improvements.",
-                  "4": "Created reusable templates adopted across 3 engineering teams."
-               },
-               "skills": [
-                  "Python",
-                  "LangGraph",
-                  "LangChain",
-                  "FastAPI",
-                  "PostgreSQL",
-                  "AWS",
-                  "OpenAI API",
-                  "Anthropic API",
-                  "Docker",
-                  "Redis",
-                  "Pydantic",
-                  "AI Agents"
-               ]
-            },
-            {
-               "name": "Coding Assistant",
-               "date": "Jan 2025 - Apr 2025",
-               "description": {
-                  "1": "Developed 8+ autonomous coding workflows for code generation, debugging, and documentation.",
-                  "2": "Integrated 4 LLM providers for dynamic model selection.",
-                  "3": "Improved agent task completion rates by ~18% through execution monitoring and validation pipelines.",
-                  "4": "Contributed 25+ pull requests across frontend and backend modules."
-               },
-               "skills": [
-                  "Python",
+                  "Salesforce",
+                  "ServiceNow",
+                  "JavaScript",
                   "TypeScript",
                   "React",
-                  "Docker",
-                  "Anthropic API",
-                  "OpenAI API",
-                  "Next.js",
-                  "Tailwind CSS",
                   "Node.js",
-                  "GitHub Actions",
-                  "SQLite",
-                  "REST APIs"
+                  "REST APIs",
+                  "SQL",
+                  "PostgreSQL",
+                  "Docker",
+                  "Git",
+                  "CI/CD",
+                  "Agile/Scrum"
                ]
             }
          ],
          "internal_contributions": [
             {
-               "title": "Tech Talk: Enterprise RAG Architecture Best Practices",
+               "title": "Tech Talk: Enterprise Application Architecture & Scalable System Design",
                "type": "talk",
                "year": 2026
             },
             {
-               "title": "Tech Talk: Building Scalable AI Agent Systems with LangGraph",
+               "title": "Tech Talk: Building Enterprise Applications with Modern Web Technologies",
                "type": "talk",
                "year": 2025
             }
          ],
          "internal_achievements": [
             {
-               "title": "AI Platform Excellence Program",
+               "title": "Enterprise Application Modernization Program",
                "type": "program",
                "year": 2026
             },
             {
-               "title": "Developer Productivity Automation Program",
+               "title": "Business Process Automation & Integration Program",
                "type": "program",
                "year": 2025
             }
@@ -109,132 +62,88 @@
       },
       {
          "id": 2,
-         "date": "Jan 2023 \u2013 Dec 2024",
-         "title": "Full Stack Developer",
-         "position": "Full-time Remote",
-         "company": "Prefect",
-         "location": "Washington, DC, USA",
-         "summary": "Delivered scalable SaaS applications and open-source products while progressively taking ownership of architecture and feature delivery.",
+         "date": "Jan 2024 – Oct 2025",
+         "title": "ServiceNow Developer",
+         "position": "Full-time",
+         "company": "Cognizant",
+         "location": "Remote",
+         "summary": "Developed and customized ServiceNow solutions to automate IT service processes, optimize workflows, and integrate enterprise systems through scripting, configuration, and API-driven development.",
          "projects": [
             {
-               "name": "Agile Suite",
-               "date": "Jun 2024 - Dec 2024",
+               "name": "Enterprise Service Management & Workflow Automation Platform",
+               "date": "Jan 2024 – Oct 2025",
                "description": {
-                  "1": "Delivered 15+ enhancements across issue tracking and sprint planning modules.",
-                  "2": "Improved API performance by ~25% through query optimization.",
-                  "3": "Implemented automated testing for critical workflows.",
-                  "4": "Collaborated with a distributed team of 15+ engineers."
+                  "1": "Developed 30+ ServiceNow components including Business Rules, Client Scripts, Script Includes, and custom applications.",
+                  "2": "Configured 5+ ITSM modules including Incident, Change, Service Catalog, and Knowledge Management.",
+                  "3": "Built 12+ REST API integrations connecting ServiceNow with enterprise systems to improve data synchronization.",
+                  "4": "Automated 25+ workflows using Flow Designer and JavaScript, reducing repetitive tasks by 35%.",
+                  "5": "Supported 15+ production releases through update sets, testing, Git, and Agile practices."
                },
                "skills": [
-                  "Next.js",
-                  "Python",
-                  "PostgreSQL",
-                  "Redis",
-                  "Docker",
-                  "TypeScript",
-                  "REST APIs",
-                  "GitHub Actions",
-                  "Tailwind CSS",
-                  "AWS",
-                  "CI/CD",
-                  "Jest"
-               ]
-            },
-            {
-               "name": "AI-SaaS Platform",
-               "date": "Sep 2023 - May 2024",
-               "description": {
-                  "1": "Built a multi-tenant SaaS platform supporting 1,000+ monthly active users.",
-                  "2": "Developed 20+ REST APIs covering authentication, billing, and AI services.",
-                  "3": "Integrated Stripe subscriptions and OpenAI-powered automation features.",
-                  "4": "Reduced deployment times by ~40% through CI/CD automation."
-               },
-               "skills": [
-                  "Next.js",
-                  "TypeScript",
-                  "FastAPI",
-                  "Stripe",
-                  "AWS",
-                  "Docker",
-                  "OpenAI API",
-                  "PostgreSQL",
-                  "Redis",
-                  "GitHub Actions",
-                  "Tailwind CSS",
-                  "REST APIs"
-               ]
-            },
-            {
-               "name": "Workspace Hub",
-               "date": "Jan 2023 - Aug 2023",
-               "description": {
-                  "1": "Implemented 10+ collaborative workspace features for notes and documents.",
-                  "2": "Improved frontend responsiveness by ~20% across major user workflows.",
-                  "3": "Participated in 50+ code reviews and Agile ceremonies.",
-                  "4": "Resolved 40+ issues related to synchronization and user experience."
-               },
-               "skills": [
-                  "Flutter",
-                  "TypeScript",
-                  "Rust",
-                  "Docker",
-                  "PostgreSQL",
+                  "ServiceNow",
+                  "JavaScript",
+                  "GlideScript",
+                  "Business Rules",
+                  "Client Scripts",
+                  "Script Includes",
+                  "Flow Designer",
+                  "ServiceNow ITSM",
+                  "Service Catalog",
+                  "Service Portal",
+                  "REST API Integration",
+                  "HTML5",
+                  "CSS3",
                   "Git",
-                  "GitHub",
-                  "REST APIs",
-                  "Redis",
-                  "Linux",
-                  "CI/CD",
-                  "Figma"
+                  "Agile/Scrum"
                ]
             }
          ],
          "internal_contributions": [
             {
-               "title": "ech Talk: Building Scalable SaaS Applications with Next.js and FastAPI",
+               "title": "Tech Talk: ServiceNow ITSM Automation Best Practices & Workflow Design",
                "type": "talk",
-               "year": 2023
+               "year": 2024
             }
          ],
          "internal_achievements": [
             {
-               "title": "SaaS Platform Modernization Program",
+               "title": "ServiceNow Enterprise Platform Optimization Program",
                "type": "program",
-               "year": 2024
+               "year": 2025
             }
          ]
       },
       {
          "id": 3,
-         "date": "Jan 2022 \u2013 Dec 2022",
-         "title": "Junior Full Stack Developer",
-         "position": "Full-time Remote",
-         "company": "Weaviate",
-         "location": "Amsterdam, Netherlands",
-         "summary": "Contributed to modern web applications while strengthening full-stack development skills in a distributed engineering environment.",
+         "date": "Aug 2022 – Dec 2023",
+         "title": "Salesforce Developer",
+         "position": "Full-time",
+         "company": "Accenture Philippines",
+         "location": "Remote",
+         "summary": "Developed and customized enterprise Salesforce CRM solutions to improve customer management, sales operations, and business process automation.",
          "projects": [
             {
-               "name": "Smart Scheduling",
-               "date": "Jan 2022 - Dec 2022",
+               "name": "Enterprise Salesforce CRM Implementation Platform",
+               "date": "Aug 2022 – Dec 2023",
                "description": {
-                  "1": "Implemented 12+ scheduling and calendar management features.",
-                  "2": "Built integrations with Google Calendar and Microsoft Outlook.",
-                  "3": "Improved database query performance by ~12%.",
-                  "4": "Added automated tests covering 80% of critical scheduling workflows."
+                  "1": "Developed 30+ Salesforce components using Apex, SOQL, and Lightning Web Components (LWC) for CRM workflows.",
+                  "2": "Built 15+ automation processes using Salesforce Flow, validation rules, and Apex triggers to reduce manual tasks.",
+                  "3": "Managed Salesforce DX workflows including metadata, version control, testing, and deployments across environments.",
+                  "4": "Integrated Salesforce with external systems through REST APIs to improve data synchronization and connectivity."
                },
                "skills": [
-                  "Next.js",
-                  "TypeScript",
-                  "Node.js",
-                  "Prisma",
-                  "PostgreSQL",
-                  "Google Calendar API",
-                  "Microsoft Outlook API",
-                  "Tailwind CSS",
-                  "REST APIs",
-                  "GitHub Actions",
-                  "Docker",
-                  "Jest"
+                  "Salesforce Platform",
+                  "Sales Cloud",
+                  "Service Cloud",
+                  "Apex",
+                  "Lightning Web Components (LWC)",
+                  "SOQL",
+                  "Salesforce Flow",
+                  "Salesforce DX",
+                  "REST API Integration",
+                  "JavaScript",
+                  "Git",
+                  "Agile/Scrum"
                ]
             }
          ],
@@ -243,35 +152,29 @@
       },
       {
          "id": 4,
-         "date": "Jun 2021 \u2013 Dec 2021",
-         "title": "AI Engineer Intern",
+         "date": "Jun 2021 – Aug 2021",
+         "title": "Software Development Intern",
          "position": "Internship",
-         "company": "Tooploox",
-         "location": "Wroc\u0142aw, Poland",
-         "summary": "Supported AI research initiatives by developing transformer-based NLP solutions and collaborating closely with senior machine learning engineers.",
+         "company": "De La Salle University IT Services Office",
+         "location": "Manila, Philippines",
+         "summary": "Supported the development and improvement of a web-based student information platform used to streamline academic processes, student services, and administrative workflows.",
          "projects": [
             {
-               "name": "Transformer NLP Suite",
-               "date": "Jun 2021 - Dec 2021",
+               "name": "Student Information Management System",
+               "date": "Jun 2021 - Aug 2021",
                "description": {
-                  "1": "Fine-tuned 5+ transformer models for text classification and question-answering tasks.",
-                  "2": "Built data preprocessing pipelines that reduced preparation time by ~20%.",
-                  "3": "Benchmarked models across datasets containing 100,000+ text samples.",
-                  "4": "Contributed to 3 AI proof-of-concepts delivered to enterprise clients."
+                  "1": "Assisted in developing 10+ frontend features for web applications using JavaScript and React.js",
+                  "2": "Built and optimized 20+ SQL queries for data retrieval, reporting, and application functionality.",
+                  "3": "Developed and tested REST API integrations between frontend components and backend services",
+                  "4": "Collaborated with developers and university stakeholders through Agile workflows, code reviews, and testing activities"
                },
                "skills": [
-                  "Python",
-                  "PyTorch",
-                  "Hugging Face Transformers",
-                  "NLP",
-                  "Scikit-learn",
-                  "Pandas",
-                  "NumPy",
-                  "Jupyter Notebook",
-                  "Git",
-                  "Matplotlib",
-                  "Linux",
-                  "OpenCV"
+                  "JavaScript",
+                  "React.js",
+                  "Node.js",
+                  "REST APIs",
+                  "MySQL",
+                  "Git"
                ]
             }
          ],

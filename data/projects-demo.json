@@ -24,7 +24,7 @@
             "Provides a comprehensive administrative dashboard for user management, analytics, usage monitoring, and feature configuration.",
             "Supports a scalable multi-tenant architecture with role-based access control, API rate limiting, and cloud deployment automation."
          ],
-         "github": "https://github.com/larrymargerum01/AI-Sass-Platform",
+         "github": "https://github.com/ForwardAva/AI-Sass-Platform",
          "live": null
       },
       {
@@ -51,7 +51,7 @@
             "Enables centralized management of multiple AI models, prompts, and application configurations across environments.",
             "Offers enterprise-grade monitoring, analytics, and workflow automation tools for operating AI applications at scale."
          ],
-         "github": "https://github.com/larrymargerum01/LLM-Platform",
+         "github": "https://github.com/ForwardAva/LLM-Platform",
          "live": "https://dify.ai"
       },
       {
@@ -78,7 +78,7 @@
             "Supports tool calling, conditional routing, and human-in-the-loop interactions to improve agent reliability.",
             "Offers reusable components for designing scalable AI systems with modular and maintainable architectures."
          ],
-         "github": "https://github.com/larrymargerum01/Agent-Engine",
+         "github": "https://github.com/ForwardAva/Agent-Engine",
          "live": "https://www.langchain.com/langgraph"
       },
       {
@@ -105,7 +105,7 @@
             "Provides compatibility with multiple LLM providers, allowing dynamic model selection based on task requirements.",
             "Includes conversational interfaces and execution environments for iterative problem solving and developer assistance."
          ],
-         "github": "https://github.com/larrymargerum01/Codding-Assistant",
+         "github": "https://github.com/ForwardAva/Codding-Assistant",
          "live": "https://www.all-hands.dev"
       }
    ],
@@ -134,7 +134,7 @@
             "Enables real-time synchronization of workspace data across desktop and mobile devices for a seamless user experience.",
             "Provides workspace organization features such as folders, permissions, and project-specific document management."
          ],
-         "github": "https://github.com/larrymargerum01/Workspace-Hub",
+         "github": "https://github.com/ForwardAva/Workspace-Hub",
          "live": "https://appflowy.io"
       },
       {
@@ -161,7 +161,7 @@
             "Includes collaboration features such as comments, notifications, and activity tracking to improve team productivity.",
             "Offers workflow automation and reporting capabilities to monitor project progress and optimize delivery timelines."
          ],
-         "github": "https://github.com/larrymargerum01/Agile-Suite",
+         "github": "https://github.com/ForwardAva/Agile-Suite",
          "live": "https://plane.so"
       },
       {
@@ -188,7 +188,7 @@
             "Integrates with Google Calendar, Outlook, and Apple Calendar for real-time synchronization.",
             "Provides secure authentication, notifications, and payment integrations for managing appointments and paid consultations."
          ],
-         "github": "https://github.com/larrymargerum01/Smart-Scheduling",
+         "github": "https://github.com/ForwardAva/Smart-Scheduling",
          "live": "https://cal.com"
       },
       {
@@ -215,7 +215,7 @@
             "Includes automated model evaluation and benchmarking capabilities with detailed performance metrics and validation reports.",
             "Enables seamless integration with Hugging Face transformer models for rapid prototyping and production deployment."
          ],
-         "github": "https://github.com/larrymargerum01/Transformer-NLP-Suite",
+         "github": "https://github.com/ForwardAva/Transformer-NLP-Suite",
          "live": null
       }
    ],

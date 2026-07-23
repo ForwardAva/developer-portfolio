@@ -1,72 +1,50 @@
 [
   {
     "id": 1,
-    "title": "Full-Stack Engineering",
+    "title": "Enterprise Software Design & Development",
     "list": [
-      "Frontend & Backend Application Development",
-      "REST API & GraphQL Integration",
-      "Scalable SaaS Architecture",
-      "Authentication & Authorization Systems",
-      "Real-time Collaboration Platforms"
+      "Custom Enterprise Application Development",
+      "Full-Stack Web Application Development",
+      "SaaS Platform Development",
+      "API & Backend Integration",
+      "Legacy System Modernization"
     ]
   },
   {
     "id": 2,
-    "title": "AI Engineering",
+    "title": "Salesforce CRM Solutions & Automation",
     "list": [
-      "Large Language Model Integration",
-      "Retrieval-Augmented Generation (RAG)",
-      "Prompt Engineering & Evaluation",
-      "Production AI Application Development",
-      "Multi-Agent System Design"
+      "Salesforce CRM Implementation & Configuration",
+      "Apex & Lightning Web Components Development",
+      "Salesforce Flow & Process Automation",
+      "CRM Data Integration & Migration",
+      "Reports, Dashboards & Analytics"
     ]
   },
   {
     "id": 3,
-    "title": "Cloud & DevOps",
+    "title": "ServiceNow Enterprise Platform Engineering",
     "list": [
-      "AWS Cloud Infrastructure",
-      "CI/CD Pipeline Automation",
-      "Containerization with Docker",
-      "Kubernetes Orchestration",
-      "Cloud-Native Application Deployment"
+      "ServiceNow Application Development",
+      "ITSM Workflow Automation",
+      "Flow Designer & Business Rules",
+      "ServiceNow Integration & API Development",
+      "Platform Configuration & Optimization"
     ]
   },
   {
     "id": 4,
-    "title": "AI Agents & Automation",
+    "title": "Business Process Integration & Workflow Automation",
     "list": [
-      "LangChain Workflow Development",
-      "LangGraph Agent Orchestration",
-      "Tool Calling & MCP Integration",
-      "AI Workflow Automation",
-      "Autonomous Coding Assistants"
+      "Enterprise Workflow Design",
+      "System Integration & API Connectivity",
+      "Business Process Automation",
+      "Data Synchronization Solutions",
+      "Digital Transformation Consulting"
     ]
   },
   {
     "id": 5,
-    "title": "Machine Learning",
-    "list": [
-      "Deep Learning with PyTorch",
-      "Natural Language Processing",
-      "Transformer-Based Architectures",
-      "Model Fine-Tuning & Evaluation",
-      "Embeddings & Semantic Search"
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Software Engineering",
-    "list": [
-      "System Design & Architecture",
-      "Distributed Systems",
-      "Performance Optimization",
-      "Technical Documentation",
-      "Code Review & Mentorship"
-    ]
-  },
-  {
-    "id": 7,
     "title": "Open Source & Collaboration",
     "list": [
       "Open Source Contributions",

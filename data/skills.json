@@ -1,91 +1,72 @@
 {
+   "enterprise_platforms": [
+      "Salesforce Platform",
+      "Apex Programming",
+      "Lightning Web Components (LWC)",
+      "SOQL / SOSL",
+      "Salesforce Flow",
+      "Automation",
+      "Salesforce APIs & Integrations",
+      "ServiceNow Platform",
+      "ServiceNow ITSM",
+      "ServiceNow Scripting",
+      "Business Rules",
+      "Client Scripts",
+      "Glide API",
+      "Workflow Automation"
+   ],
    "languages": [
-      "Python",
-      "TypeScript",
       "JavaScript",
-      "SQL",
-      "C/C++",
-      "C#",
-      "Bash",
+      "TypeScript",
       "Java",
-      "PHP"
+      "Python",
+      "SQL",
+      "HTML5",
+      "CSS3"
    ],
    "frontend": [
       "React",
       "Next.js",
+      "Angular",
+      "Lightning Web Components",
       "Tailwind CSS",
-      "Redux",
-      "MUI",
-      "HTML5",
-      "CSS3",
-      "Responsive Design",
-      "Component-Based Architecture",
-      "Vite"
+      "Bootstrap",
+      "Responsive Web Design"
    ],
    "backend": [
       "Node.js",
       "Express.js",
-      "FastAPI",
-      "REST API",
-      "GraphQL",
-      "WebSockets",
-      "PostgreSQL",
-      "MongoDB",
-      "Redis",
-      "Prisma ORM",
-      "Microservices",
+      "Spring Boot",
+      "REST APIs",
+      "Microservices Architecture",
+      "API Integration",
       "Authentication & Authorization"
    ],
+   "database": [
+      "PostgreSQL",
+      "MySQL",
+      "Oracle Database",
+      "MongoDB",
+      "Database Design",
+      "Data Modeling"
+   ],
    "cloud_devops": [
+      "Microsoft Azure",
       "AWS",
       "Docker",
-      "Kubernetes",
-      "GitHub Actions",
-      "CI/CD Pipelines",
-      "Infrastructure as Code",
-      "Linux",
-      "Cloud Architecture",
-      "Container Orchestration"
-   ],
-   "ai_ml": [
-      "Machine Learning",
-      "Deep Learning",
-      "PyTorch",
-      "LangChain",
-      "LangGraph",
-      "Hugging Face Transformers",
-      "Large Language Models",
-      "RAG Pipelines",
-      "Prompt Engineering",
-      "AI Agents",
-      "Multi-Agent Systems",
-      "Embeddings",
-      "Model Evaluation",
-      "Fine-Tuning"
-   ],
-   "tools_platforms": [
-      "OpenAI APIs",
-      "Anthropic APIs",
       "Git",
       "GitHub",
-      "VS Code",
-      "Postman",
-      "Stripe",
-      "Jira",
-      "Figma",
-      "MCP Protocol",
-      "Claude Code",
-      "Cursor AI"
+      "CI/CD Pipelines",
+      "Linux",
+      "Cloud Application Deployment"
    ],
    "cs_fundamentals": [
+      "Object-Oriented Programming (OOP)",
       "Data Structures & Algorithms",
-      "Object-Oriented Programming",
-      "Computer Networks",
-      "Operating Systems",
-      "Software Engineering",
-      "Database Management Systems",
       "System Design",
-      "Distributed Systems"
+      "Agile/Scrum",
+      "Software Development Lifecycle (SDLC)",
+      "Enterprise Application Development"
    ],
    "soft_skills": [
       "Leadership",
@@ -96,12 +77,9 @@
       "Adaptability"
    ],
    "areas_of_interest": [
-      "Full-Stack Development",
-      "AI Engineering",
-      "LLMs & RAG",
-      "AI Agents",
-      "Multi-Agent Systems",
-      "Cloud & DevOps",
-      "Open Source"
+      "Enterprise Application Development",
+      "Enterprise Integration & Automation",
+      "Cloud & Digital Transformation",
+      "Full-Stack Software Engineering"
    ]
 }

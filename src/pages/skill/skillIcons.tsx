@@ -39,9 +39,24 @@ import {
    SiHuggingface,
    SiJira,
    SiOpenai,
+   SiAngular,
+   SiLightning,
+   SiBootstrap,
+   SiSpringboot,
+   SiMysql,
+   SiSalesforce,
+   SiAutoprefixer,
+   SiSqlite,
+   SiMsibusiness,
+   SiGlide,
+   SiEnterprisedb,
+   SiCloudbees,
+   SiCloud66,
+   SiCloudera,
+   SiIcloud,
 } from "react-icons/si";
-import { FaJava, FaAws, FaCloud } from "react-icons/fa";
-import { TbBrandCSharp, TbBrandVscode, TbApi, TbPrompt, TbAdjustments, TbTopologyStar3, TbDatabaseSearch } from "react-icons/tb";
+import { FaJava, FaAws, FaCloud, FaServicestack } from "react-icons/fa";
+import { TbBrandCSharp, TbBrandVscode, TbApi, TbPrompt, TbAdjustments, TbTopologyStar3, TbDatabaseSearch, TbAutomation, TbScript } from "react-icons/tb";
 import {
    Database,
    Workflow,
@@ -63,14 +78,22 @@ import {
    Shuffle,
    Cloud,
    GitFork,
+   DatabaseIcon,
+   User2Icon,
 } from "lucide-react";
-import { FaCubes, FaGithub, FaLaptopCode, FaStripe } from "react-icons/fa6";
-import { FcServices } from "react-icons/fc";
+import { FaCubes, FaGithub, FaLaptopCode, FaSalesforce, FaStripe } from "react-icons/fa6";
+import { FcEngineering, FcServices } from "react-icons/fc";
 import { RiShieldKeyholeFill } from "react-icons/ri";
 import { LuBrainCircuit, LuContainer } from "react-icons/lu";
 import { AiOutlineAlignCenter } from "react-icons/ai";
-import { MdArchitecture, MdAssessment, MdSupportAgent } from "react-icons/md";
+import { MdArchitecture, MdAssessment, MdIntegrationInstructions, MdSupportAgent } from "react-icons/md";
 import { ImEmbed } from "react-icons/im";
+import { GrIntegration, GrOracle, GrServices } from "react-icons/gr";
+import { VscAzure } from "react-icons/vsc";
+import { IoCloudDone, IoThunderstorm } from "react-icons/io5";
+import { RxBoxModel } from "react-icons/rx";
+import { LiaSalesforce } from "react-icons/lia";
+import { GoWorkflow } from "react-icons/go";
 
 interface IconProps {
    size?: number;
@@ -94,86 +117,67 @@ const AWS_ORANGE = "#FF9900";
  */
 const SKILL_ICONS: Record<string, SkillIcon> = {
    // Languages
-   Python: { Icon: SiPython, color: "#4B8BBE" },
+   // Languages
+   Python: { Icon: SiPython, color: "#3776AB" },
    JavaScript: { Icon: SiJavascript, color: "#F7DF1E" },
    TypeScript: { Icon: SiTypescript, color: "#3178C6" },
-   "C/C++": { Icon: SiCplusplus, color: "#669AD3" },
-   Java: { Icon: FaJava, color: "#F89820" },
-   SQL: { Icon: Database, color: "#3B82F6" },
-   PHP: { Icon: SiPhp, color: "#777BB4" },
-   Bash: { Icon: SiGnubash, color: "#89E051" },
-   Go: { Icon: SiGo, color: "#00ADD8" },
-   "C#": { Icon: TbBrandCSharp, color: "#9B4F96" },
-   R: { Icon: SiR, color: "#276DC3" },
+   Java: { Icon: FaJava, color: "#007396" },
+   SQL: { Icon: Database, color: "#336791" },
+   "HTML5": { Icon: SiHtml5, color: "#E34F26" },
+   "CSS3": { Icon: SiCss, color: "#1572B6" },
 
    // Frontend
    React: { Icon: SiReact, color: "#61DAFB" },
-   "Next.js": { Icon: SiNextdotjs, color: "#FFFFFF", },
-   Vite: { Icon: SiVite, color: "#646CFF", },
-   "Tailwind CSS": { Icon: SiTailwindcss, color: "#06B6D4", },
-   "Responsive Design": { Icon: FaLaptopCode, color: "#38BDF8", },
-   "Component-Based Architecture": { Icon: FaCubes, color: "#A855F7", },
-   Redux: { Icon: SiRedux, color: "#764ABC", },
-   MUI: { Icon: SiMui, color: "#007FFF", },
-   "HTML5": { Icon: SiHtml5, color: "#E34F26", },
-   "CSS3": { Icon: SiCss, color: "#1572B6", },
+   "Next.js": { Icon: SiNextdotjs, color: "#000000" },
+   Angular: { Icon: SiAngular, color: "#DD0031" },
+   "Lightning Web Components": { Icon: SiLightning, color: "#00A1E0" },
+   "Tailwind CSS": { Icon: SiTailwindcss, color: "#06B6D4" },
+   Bootstrap: { Icon: SiBootstrap, color: "#7952B3" },
+   "Responsive Web Design": { Icon: FaLaptopCode, color: "#38BDF8" },
 
-   // Backend & databases
-   "Node.js": { Icon: SiNodedotjs, color: "#5FA04E", },
-   "Express.js": { Icon: SiExpress, color: "#FFFFFF", },
-   FastAPI: { Icon: SiFastapi, color: "#009688", },
-   "REST API": { Icon: TbApi, color: "#3B82F6", },
-   GraphQL: { Icon: SiGraphql, color: "#E10098", },
-   MongoDB: { Icon: SiMongodb, color: "#47A248", },
-   PostgreSQL: { Icon: SiPostgresql, color: "#336791", },
-   WebSockets: { Icon: SiSocket, color: "#4479A1", },
-   Redis: { Icon: SiRedis, color: "#DC382D", },
-   "Prisma ORM": { Icon: SiPrisma, color: "#2D3748", },
-   Microservices: { Icon: FcServices, color: "#0EA5E9", },
-   "Authentication & Authorization": { Icon: RiShieldKeyholeFill, color: "#10B981", },
+   // Backend
+   "Node.js": { Icon: SiNodedotjs, color: "#339933" },
+   "Express.js": { Icon: SiExpress, color: "#000000" },
+   "Spring Boot": { Icon: SiSpringboot, color: "#6DB33F" },
+   "REST APIs": { Icon: TbApi, color: "#2563EB" },
+   "Microservices Architecture": { Icon: FaServicestack, color: "#6366F1" },
+   "API Integration": { Icon: GrIntegration, color: "#16A34A" },
+   "Authentication & Authorization": { Icon: RiShieldKeyholeFill, color: "#059669" },
 
    // Cloud & DevOps
    "AWS": { Icon: FaAws, color: "#FF9900" },
    Docker: { Icon: SiDocker, color: "#2496ED" },
-   Kubernetes: { Icon: SiKubernetes, color: "#326CE5" },
-   "GitHub Actions": { Icon: SiGithubactions, color: "#2088FF" },
-   "CI/CD Pipelines": { Icon: Workflow, color: "#3B82F6" },
-   "Infrastructure as Code": { Icon: FileCode2, color: "#6366F1" },
+   "Microsoft Azure": { Icon: VscAzure, color: "#0078D4" },
+   "CI/CD Pipelines": { Icon: Workflow, color: "#2563EB" },
+   "Cloud Application Deployment": { Icon: IoCloudDone, color: "#6366F1" },
    Linux: { Icon: SiLinux, color: "#FCC624" },
-   "Cloud Architecture": { Icon: FaCloud, color: "#4285F4" },
-   "Container Orchestration": { Icon: LuContainer, color: "#06B6D4" },
 
-   // AI / ML
-   "Machine Learning": { Icon: Brain, color: "#8B5CF6" },
-   "Deep Learning": { Icon: Network, color: "#6366F1" },
-   PyTorch: { Icon: SiPytorch, color: "#EE4C2C" },
-   LangChain: { Icon: SiLangchain, color: "#1C3C3C" },
-   LangGraph: { Icon: SiLanggraph, color: "#00C7B7" },
-   "Hugging Face Transformers": { Icon: SiHuggingface, color: "#FFD21E" },
-   "Large Language Models": { Icon: LuBrainCircuit, color: "#EC4899" },
-   "RAG Pipelines": { Icon: Layers, color: "#3B82F6" },
-   "Prompt Engineering": { Icon: TbPrompt, color: "#14B8A6" },
-   "AI Agents": { Icon: AiOutlineAlignCenter, color: "#10B981" },
-   "Multi-Agent Systems": { Icon: MdSupportAgent, color: "#22C55E" },
-   Embeddings: { Icon: ImEmbed, color: "#A855F7" },
-   "Model Evaluation": { Icon: MdAssessment, color: "#F59E0B" },
-   "Fine-Tuning": { Icon: TbAdjustments, color: "#EF4444" },
+   // Database
+   PostgreSQL: { Icon: SiPostgresql, color: "#336791" },
+   MySQL: { Icon: SiMysql, color: "#4479A1" },
+   "Oracle Database": { Icon: GrOracle, color: "#F80000" },
+   MongoDB: { Icon: SiMongodb, color: "#47A248" },
+   "Database Design": { Icon: DatabaseIcon, color: "#0891B2" },
+   "Data Modeling": { Icon: RxBoxModel, color: "#7C3AED" },
 
-   // Tools & platforms
-   "OpenAI APIs": { Icon: SiOpenai, color: "#10A37F" },
-   "Anthropic APIs": { Icon: SiAnthropic, color: "#D97757" },
-   Git: { Icon: SiGit, color: "#F05032" },
-   GitHub: { Icon: FaGithub, color: "#FFFFFF" },
-   "VS Code": { Icon: TbBrandVscode, color: "#007ACC" },
-   Postman: { Icon: SiPostman, color: "#FF6C37" },
-   Stripe: { Icon: FaStripe, color: "#635BFF" },
-   Jira: { Icon: SiJira, color: "#0052CC" },
-   Figma: { Icon: SiFigma, color: "#F24E1E" },
-   "MCP Protocol": { Icon: Plug, color: "#4F46E5" },
-   "Claude Code": { Icon: SiAnthropic, color: "#D97757" },
-   "Cursor AI": { Icon: MousePointer2, color: "#8B5CF6" },
+   // Enterprise Platforms
+   "Salesforce Platform": { Icon: SiSalesforce, color: "#00A1E0" },
+   "Apex Programming": { Icon: SiAutoprefixer, color: "#1798C1" },
+   "Lightning Web Components (LWC)": { Icon: SiLightning, color: "#0B5CAB" },
+   "SOQL / SOSL": { Icon: SiSqlite, color: "#2E7D32" },
+   "Salesforce Flow": { Icon: FaSalesforce, color: "#00A1E0" },
+   "Automation": { Icon: TbAutomation, color: "#F59E0B" },
+   "Salesforce APIs & Integrations": { Icon: LiaSalesforce, color: "#00A1E0" },
 
-   // CS fundamentals
+   "ServiceNow Platform": { Icon: GrServices, color: "#81B5A1" },
+   "ServiceNow ITSM": { Icon: IoThunderstorm, color: "#1F8ACB" },
+   "ServiceNow Scripting": { Icon: TbScript, color: "#333333" },
+   "Business Rules": { Icon: SiMsibusiness, color: "#6366F1" },
+   "Client Scripts": { Icon: User2Icon, color: "#8B5CF6" },
+   "Glide API": { Icon: SiGlide, color: "#00A86B" },
+   "Workflow Automation": { Icon: GoWorkflow, color: "#F97316" },
+
+   // CS Fundamentals
    "Data Structures & Algorithms": { Icon: Binary, color: "#2563EB" },
    "Object-Oriented Programming": { Icon: Boxes, color: "#7C3AED" },
    "Computer Networks": { Icon: Network, color: "#0EA5E9" },
@@ -183,20 +187,25 @@ const SKILL_ICONS: Record<string, SkillIcon> = {
    "System Design": { Icon: MdArchitecture, color: "#EC4899" },
    "Distributed Systems": { Icon: TbTopologyStar3, color: "#8B5CF6" },
 
-   // Soft skills
+   // Soft Skills
    Leadership: { Icon: Crown, color: "#F59E0B" },
    "Problem Solving": { Icon: Puzzle, color: "#2563EB" },
    Communication: { Icon: MessageCircle, color: "#10B981" },
    Teamwork: { Icon: Users, color: "#8B5CF6" },
    "Critical Thinking": { Icon: Lightbulb, color: "#EAB308" },
-   Adaptability: { Icon: Shuffle, color: "#EC4899" },
+   "Adaptability": { Icon: Shuffle, color: "#EC4899" },
 
-   // Areas of interest
+   // Areas of Interest
    "Full-Stack Development": { Icon: Layers, color: "#2563EB" },
    "AI Engineering": { Icon: Brain, color: "#8B5CF6" },
    "LLMs & RAG": { Icon: TbDatabaseSearch, color: "#10B981" },
    "Open Source": { Icon: GitFork, color: "#F97316" },
    "Cloud & DevOps": { Icon: Cloud, color: "#0EA5E9" },
+
+   "Enterprise Application Development": { Icon: SiEnterprisedb, color: "#2563EB" },
+   "Enterprise Integration & Automation": { Icon: MdIntegrationInstructions, color: "#16A34A" },
+   "Cloud & Digital Transformation": { Icon: SiIcloud, color: "#0EA5E9" },
+   "Full-Stack Software Engineering": { Icon: FcEngineering, color: "#7C3AED" },
 };
 
 /** Grouped AWS service strings ("AWS (EC2, ...)") all take the AWS glyph. */
