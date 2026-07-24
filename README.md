@@ -185,17 +185,6 @@ Automated via GitHub Actions CI/CD pipeline (all actions pinned to SHA hashes):
 
 ---
 
-## More Projects
-
-| Project                                                                                | Description                                                            |
-| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [AI Sass Platform](https://github.com/ForwardAva/AI-Sass-Platform)         | Save 30-60% on Claude Code costs - proven strategies and benchmarks    |
-| [LLM Platform](https://github.com/ForwardAva/LLM-Platform)             | Modern React financial dashboard with analytics and data visualization |
-| [Codding Assistant](https://github.com/ForwardAva/Codding-Assistant) | Browser tool showing who likes your Instagram posts the most           |
-| [Agent Engine](https://github.com/ForwardAva/Agent-Engine) | Full-stack ML-powered LeetCode contest rating predictor                |
-
----
-
 ## License
 
 GPL-3.0 -- see [LICENSE](LICENSE) for details.

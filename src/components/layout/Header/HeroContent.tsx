@@ -60,7 +60,7 @@ const HeroContent = () => {
                }}
                aria-hidden="true"
             >
-               LM
+               OG
             </div>
          </motion.div>
 

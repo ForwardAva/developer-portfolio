@@ -85,7 +85,7 @@ const FooterContent = () => {
                   }}
                   aria-hidden="true"
                >
-                  LM
+                  OG
                </span>
                <p style={{ color: "rgba(244,246,247,0.8)", fontSize: 14 }}>
                   &copy; {new Date().getFullYear()} {name}. All rights reserved.
