@@ -15,7 +15,7 @@ import { pdf } from "pdf-to-img";
 import sharp from "sharp";
 
 const RESUME_URL =
-   "https://flowcv.com/resume/hilsned237sd";
+   "https://flowcv.com/resume/m03o57ebsv4d";
 const PUBLIC_DIR = path.resolve(import.meta.dirname, "../public");
 const PDF_OUT = path.join(PUBLIC_DIR, "resume.pdf");
 const PAGES_DIR = path.join(PUBLIC_DIR, "resume-pages");

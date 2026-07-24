@@ -6,9 +6,9 @@ import { MONO_FONT, TEXT_MUTED, TEXT_SECONDARY } from "@/constants/theme";
 // scripts/prepare-resume.js -- no client-side PDF machinery, no blur.
 const BASE = import.meta.env.BASE_URL;
 const MANIFEST_URL = `${BASE}resume-pages/manifest.json`;
-const RESUME_PDF = `https://flowcv.com/resume/hilsned237sd`;
+const RESUME_PDF = `https://flowcv.com/resume/m03o57ebsv4d`;
 const RESUME_DOWNLOAD_URL =
-   "https://flowcv.com/resume/hilsned237sd";
+   "https://flowcv.com/resume/m03o57ebsv4d";
 
 const ZOOM_STEPS = [0.75, 1, 1.25, 1.5];
 

@@ -8,7 +8,7 @@ import useBreakpoint from "@hooks/useBreakpoint";
 import FooterSocial from "./FooterSocial";
 
 const RESUME_URL =
-   "https://flowcv.com/resume/hilsned237sd";
+   "https://flowcv.com/resume/m03o57ebsv4d";
 
 const SITE_LINKS: { id: string; label: string }[] = [
    { id: "hero", label: "Home" },

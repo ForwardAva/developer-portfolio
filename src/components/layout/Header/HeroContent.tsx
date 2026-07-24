@@ -9,7 +9,7 @@ import CvViewerModal from "@components/ui/CvViewerModal/CvViewerModal";
 import HeroStats from "./HeroStats";
 import HeroSocial from "./HeroSocial";
 const RESUME_URL =
-   "https://flowcv.com/resume/hilsned237sd";
+   "https://flowcv.com/resume/m03o57ebsv4d";
 
 const HeroContent = () => {
    const [roleIndex, setRoleIndex] = useState(0);
